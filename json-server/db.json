@@ -5,10 +5,10 @@
     { "id": 3, "title": "json-server3", "author": "alain" },
     { "id": 4, "title": "json-server4", "author": "alain" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 2 },
-    { "id": 3, "body": "some comment", "postId": 3 }
+  "users": [
+    { "id": 1, "name": "joe1" },
+    { "id": 2, "name": "joe2" },
+    { "id": 3, "name": "joe3" }
   ],
   "profile": { "name": "alain" }
 }
