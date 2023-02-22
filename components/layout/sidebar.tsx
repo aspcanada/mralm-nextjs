@@ -9,6 +9,8 @@ import {
 import LogoLink from '../logoLink'
 import { classNames } from '../../utils/helpers'
 import Link from 'next/link'
+import { useRouter } from "next/router"
+import React, { useEffect, useState } from "react"
 
 type SidebarProps = {
   sidebarOpen: boolean
@@ -16,14 +18,28 @@ type SidebarProps = {
 }
 
 export default function Sidebar({ sidebarOpen, setSidebarOpen}: SidebarProps) {
+  const router = useRouter()
+  const [activePage, setActivePage] = useState('/')
+
   const navigation = [
-    { name: 'Dashboard', href: '/', icon: HomeIcon, current: true },
+    { name: 'Dashboard', href: '/', icon: HomeIcon, current: false },
     { name: 'Deals', href: '/deals', icon: UsersIcon, current: false },
     { name: 'Users', href: '/users', icon: FolderIcon, current: false },
     // { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
     // { name: 'Documents', href: '#', icon: InboxIcon, current: false },
     // { name: 'Reports', href: '#', icon: ChartBarIcon, current: false },
   ]
+
+  useEffect(() => {
+    if (router.asPath) {
+      navigation.forEach((item) => {
+        if (item.href === router.asPath) {
+          setActivePage(item.href)
+          console.log('item.href', item.href)
+        }
+      })
+    }
+  }, [router])
 
   return (
     <>
@@ -124,7 +140,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen}: SidebarProps) {
                     key={item.name}
                     href={item.href}
                     className={classNames(
-                      item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                      item.href === activePage ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                       'group flex items-center px-2 py-2 text-sm font-medium rounded-md'
                     )}
                   >
