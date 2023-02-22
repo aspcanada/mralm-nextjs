@@ -1,38 +1,128 @@
-// data: {
-//   id: 5,
-//   img: [
-//     "https://loremflickr.com/640/480/house?lock=77447",
-//     "https://loremflickr.com/640/480/house?lock=95220",
-//   ],
-//   ltv: 80,
-//   city: "Midland",
-//   date: "August 4, 2022",
-//   rate: 10.3,
-//   term: 13,
-//   label: ["Expired"],
-//   title: "Little Acorn Farm 5",
-//   amount: 260492,
-//   details:
-//     "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-//   purpose: "Debt Consolidation",
-//   position: 2,
-//   memberAvatar:
-//     "https://lh3.googleusercontent.com/a/AEdFTp5Ri-sD8fA1y6SeyPfbJsDIxgmYto_cn84pukNj7S8=s96-c",
-// },
 
 export type Deal = {
   id: number;
-  img: string[];
+  // info about the deal
+  dealInfo: DealInfo;
+  
+  // info about the property
+  propertyInfo: PropertyInfo;
+  valuation: Valuation;
+  
+  label: string[]; //new, hot, active, expired, etc
+  // memberAvatar: string; //url
+  
+  borrower: Borrower;
+  lender: Lender;
+
+  // auto calculated fields
+  // ltv = (amount / appraisedValue) * 100;
+  // payment = (amount * rate) / (1 - (1 + rate) ** -term);
+
+};
+
+export type Profile = {
+  id: number;
+  firstName: string;
+  lastName: string;
+  address: Address;
+  email: string;
+  phone: string;
+  avatar: string; //url
+  // SIN: string;
+  // DOB: Date;
+  // memberSince: Date;
+  isLender: boolean;
+  lenderCriteria?: LendingCriteria;
+  isBorrower: boolean;
+
+};
+
+export type Lender = {
+  profile: Profile;
+  lenderCriteria: LendingCriteria;
+};
+
+type LendingCriteria = {
+  maxAmount: number;
   ltv: number;
-  city: string;
-  date: string;
+  minRate: number;
+  maxTerm: number;
+  lenderFee: number;
+  fico?: number;
+};
+
+type Borrower = {
+  profile: Profile;
+  // borrowerInfo: BorrowerInfo;
+};
+
+
+
+
+type Valuation = {
+  appraisalCompany: string;
+  appraiserName: string;
+  appraisalDate: Date;
+  appraisedValue: number;
+  assessedValue: number;
+};
+
+type DealInfo = {
+  amount: number;
   rate: number;
   term: number;
-  label: string[];
-  title: string;
-  amount: number;
-  details: string;
+  exitStrategy: string;
   purpose: string;
-  position: number;
-  memberAvatar: string;
+  closingDate: Date;
+  interestOnly: boolean;
+  broker?: string;
+  brokerFee?: number; //percentage || amount
+  legalFees?: number; //percentage || amount
+  lenderFee?: number; //percentage || amount
+  // payment: number; //auto calculated
+  // payment = (amount * rate) / (1 - (1 + rate) ** -term);
+  propTaxArrears?: number;
+  marketabilityRanking: number; //1-10
+  paymentFrequency: string; //monthly, quarterly, yearly
+  details: string;
+};
+
+type Encumbrance = {
+  mtgPosition: number;
+  mtgHolder: string;
+  mtgNumber: string;
+  balance: number;
+  payment: number;
+  paymentFrequency: string; //monthly, quarterly, yearly, bi-weekly
+  interestRate: number;
+  maturityDate: Date;
+  arrears?: number;
+};
+
+type Address = {
+  street: string;
+  city: string;
+  province: string;
+  postalCode: string;
+};
+
+type PropertyInfo = {
+  address: Address;
+  legalDescription: string;
+  encumbrances?: Encumbrance[];
+  title: string; //freehold, strata, etc
+  annualPropertyTax: number;
+  monthlyMaintFee?: number;
+  salePrice?: number;
+  taxArrears: number;
+  leins?: number;
+  occupancy: string; //owner, renter, vacant
+  leaseAgreement?: boolean;
+  style: string; //2 story, condo, townhouse, etc
+  well?: boolean;
+  septic?: boolean;
+  zoning: string;
+  numUnits?: number;
+  rentalIncome?: number;
+  images?: string[]; //url
 };
