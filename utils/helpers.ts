@@ -3,5 +3,8 @@ export function classNames(...classes: any) {
 }
 
 export function currencyFormat(num: number) {
-  return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+  if (num) 
+    return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+  
+  return '$0.00'
 }

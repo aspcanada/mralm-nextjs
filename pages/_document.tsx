@@ -10,7 +10,7 @@ export default class _Document extends Document {
     return (
       <Html className='h-full bg-gray-100'>
         <Head />
-        <body className='h-full'>
+        <body className='h-full bg-gray-100'>
           <Main />
           <NextScript />
         </body>

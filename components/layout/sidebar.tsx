@@ -33,9 +33,9 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen}: SidebarProps) {
   useEffect(() => {
     if (router.asPath) {
       navigation.forEach((item) => {
-        if (item.href === router.asPath) {
+        if (router.asPath.startsWith(item.href)) {
           setActivePage(item.href)
-          console.log('item.href', item.href)
+          // console.log('item.href', item.href)
         }
       })
     }

@@ -13,7 +13,7 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
 
 
   return (
-    <div className="px-6 lg:px-8">
+    <div className="px-4 sm:px-6 lg:px-8">
       {/* <div className="sm:flex sm:items-center">
         <div className="sm:flex-auto">
           <h1 className="text-xl font-semibold text-gray-900">Transactions</h1>
@@ -31,14 +31,15 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
         </div>
       </div> */}
       <div className="mt-8 flow-root">
-        <div className="-my-2 -mx-6 overflow-x-auto lg:-mx-8">
+        <div className="-my-2 -mx-4 overflow-x-auto sm:-mx-6 lg:-mx-8">
           <div className="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+          <div className="overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:rounded-lg">
             <table className="min-w-full divide-y divide-gray-300">
-              <thead>
+              <thead className="bg-gray-50">
                 <tr>
                   <th
                     scope="col"
-                    className="whitespace-nowrap py-3.5 pl-6 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-0"
+                    className="whitespace-nowrap py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
                   >
                     Deal ID
                   </th>
@@ -92,7 +93,7 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
               <tbody className="divide-y divide-gray-200 bg-white">
                 {deals.map((deal) => (
                   <tr key={deal.id}>
-                    <td className="whitespace-nowrap py-2 pl-6 pr-3 text-sm text-gray-500 sm:pl-0">{deal.id}</td>
+                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm text-gray-500">{deal.id}</td>
                     <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{currencyFormat(deal.amount)}</td>
                     <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.rate}%</td>
                     <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.ltv}%</td>
@@ -109,6 +110,7 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
                 ))}
               </tbody>
             </table>
+            </div>
           </div>
         </div>
       </div>
