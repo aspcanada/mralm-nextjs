@@ -4,7 +4,7 @@ export function classNames(...classes: any) {
 
 export function currencyFormat(num: number) {
   if (num) 
-    return '$' + num.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+    return '$' + num.toFixed(0).replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
   
-  return '$0.00'
+  return '$0'
 }

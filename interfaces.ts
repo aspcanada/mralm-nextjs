@@ -106,7 +106,7 @@ type Address = {
   postalCode: string;
 };
 
-type PropertyInfo = {
+export type PropertyInfo = {
   address: Address;
   legalDescription: string;
   encumbrances?: Encumbrance[];

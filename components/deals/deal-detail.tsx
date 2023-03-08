@@ -8,7 +8,7 @@ type DealDetailProps = {
   deal: any
 }
 
-export default function DealDetails({props }: { props: DealDetailProps }) {
+export default function DealDetail({props }: { props: DealDetailProps }) {
   const { deal } = props
 
   return (
@@ -28,7 +28,7 @@ export default function DealDetails({props }: { props: DealDetailProps }) {
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Term</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.term} months</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.term} years</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Purpose</dt>
@@ -38,13 +38,13 @@ export default function DealDetails({props }: { props: DealDetailProps }) {
             <dt className="text-sm font-medium text-gray-500">Closing Date</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.date}</dd>
           </div>
-          <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
+          {/* <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Details</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
               {deal.details}
             </dd>
-          </div>
-          <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
+          </div> */}
+          {/* <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Attachments</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
               <ul role="list" className="divide-y divide-gray-200 rounded-md border border-gray-200">
@@ -72,7 +72,7 @@ export default function DealDetails({props }: { props: DealDetailProps }) {
                 </li>
               </ul>
             </dd>
-          </div>
+          </div> */}
         </dl>
       </div>
     </div>
