@@ -42,20 +42,11 @@ export default function DealDetailPage() {
   return (
     <>
       <Layout>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
-          <h1 className="text-2xl font-semibold text-gray-900">Deal #{deal.id}</h1>
-        </div>
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
-          <div className="py-4">
-            {/* Deal Table List or Deal Card List */}
-            <pre>
-              {}
-            </pre>
-            <KeyMetrics props={props} />
-            <DealDetail props={props} />
-            <PropertyDetail props={props} />
-            {/* <div className="h-96 rounded-lg border-4 border-dashed border-gray-200" /> */}
-          </div>
+        <h1 className="text-2xl font-semibold text-gray-900">Deal #{deal.id}</h1>
+        <div className="mt-4">
+          <KeyMetrics props={props} />
+          <DealDetail props={props} />
+          <PropertyDetail props={props} />
         </div>
       </Layout>
     </>

@@ -24,10 +24,11 @@ export type Profile = {
   id: number;
   firstName: string;
   lastName: string;
-  address: Address;
+  address?: Address;
   email: string;
   phone: string;
   avatar: string; //url
+  occupation?: string;
   // SIN: string;
   // DOB: Date;
   // memberSince: Date;
