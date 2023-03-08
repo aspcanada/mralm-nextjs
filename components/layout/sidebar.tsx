@@ -24,7 +24,7 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen}: SidebarProps) {
   const navigation = [
     { name: 'Dashboard', href: '/', icon: HomeIcon, current: false },
     { name: 'Deals', href: '/deals', icon: UsersIcon, current: false },
-    { name: 'Users', href: '/users', icon: FolderIcon, current: false },
+    { name: 'Members', href: '/members', icon: FolderIcon, current: false },
     // { name: 'Calendar', href: '#', icon: CalendarIcon, current: false },
     // { name: 'Documents', href: '#', icon: InboxIcon, current: false },
     // { name: 'Reports', href: '#', icon: ChartBarIcon, current: false },
