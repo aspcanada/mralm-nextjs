@@ -7,6 +7,8 @@ import ValuationDetail from '@/components/deals/valuation-detail'
 import PropertyDetail from '@/components/deals/property-detail'
 import { Deal, PropertyInfo } from '@/interfaces'
 import { useDeal } from '@/utils/hooks'
+import { currencyFormat } from '@/utils/helpers'
+import BorrowerDetail from '@/components/deals/borrower-detail'
 
 export default function DealDetailPage() {
   const router = useRouter()
@@ -20,12 +22,13 @@ export default function DealDetailPage() {
   return (
     <>
       <Layout>
-        <h1 className="text-2xl font-semibold text-gray-900">Deal #{deal.id}</h1>
+        <h1 className="text-2xl font-semibold text-gray-900">Deal: {currencyFormat(deal.dealInfo.amount)} {deal.dealInfo.purpose} for {deal.dealInfo.term} year(s)</h1>
         <div className="mt-4">
           <KeyMetrics />
           <DealDetail />
           <ValuationDetail />
           <PropertyDetail />
+          <BorrowerDetail />
         </div>
       </Layout>
     </>

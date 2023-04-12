@@ -41,7 +41,7 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
                     scope="col"
                     className="whitespace-nowrap py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-gray-900 sm:pl-6"
                   >
-                    Deal ID
+                    Purpose
                   </th>
                   <th
                     scope="col"
@@ -93,7 +93,7 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
               <tbody className="divide-y divide-gray-200 bg-white">
                 {deals.map((deal) => (
                   <tr key={deal.id}>
-                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm text-gray-500">{deal.id}</td>
+                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm text-gray-500">{deal.dealInfo.purpose}</td>
                     <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{currencyFormat(deal.dealInfo.amount)}</td>
                     <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.dealInfo.rate}%</td>
                     <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{percentFormat((deal.dealInfo.amount / deal.valuation.appraisedValue) * 100)}</td>
