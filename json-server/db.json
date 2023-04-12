@@ -1892,5 +1892,16 @@
       "isLender": true,
       "isBorrower": true
     }
-  ]
+  ],
+  "me": {
+    "id": "457dcbfa-3fe3-4a32-a060-0b8a8473748f",
+    "firstName": "Alain",
+    "lastName": "St Pierre",
+    "email": "alain@aspcanada.com",
+    "phone": "778-838-4277",
+    "avatar": "https://lh3.googleusercontent.com/ogw/AOLn63GpM7MUfzhintsYYaPChe1tutPauvIenMEt5pxo9wM=s32-c-mo",
+    "occupation": "Software Architect",
+    "isLender": true,
+    "isBorrower": true
+  }
 }

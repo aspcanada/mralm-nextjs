@@ -1,11 +1,9 @@
 import Layout from '@/components/layout'
-import useSWR from 'swr'
 import { useRouter } from "next/router"
 import DealDetail from '@/components/deals/deal-detail'
 import KeyMetrics from '@/components/deals/key-metrics'
 import ValuationDetail from '@/components/deals/valuation-detail'
 import PropertyDetail from '@/components/deals/property-detail'
-import { Deal, PropertyInfo } from '@/interfaces'
 import { useDeal } from '@/utils/hooks'
 import { currencyFormat } from '@/utils/helpers'
 import BorrowerDetail from '@/components/deals/borrower-detail'
@@ -16,8 +14,6 @@ export default function DealDetailPage() {
   const { deal, isLoading, isError } = useDeal(id)
   if (isLoading) return <div>Loading...</div>
   if (isError) return <div>Error...</div>
-
-  // console.log("deal: ", JSON.stringify(deal, null, 2))
 
   return (
     <>
