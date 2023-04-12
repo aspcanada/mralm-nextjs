@@ -1,5 +1,4 @@
-
-export type Deal = {
+export interface Deal {
   id: number;
   // info about the deal
   dealInfo: DealInfo;
@@ -12,7 +11,7 @@ export type Deal = {
   // memberAvatar: string; //url
   
   borrower: Borrower;
-  lender: Lender;
+  lender?: Lender;
 
   // auto calculated fields
   // ltv = (amount / appraisedValue) * 100;
@@ -20,7 +19,7 @@ export type Deal = {
 
 };
 
-export type Profile = {
+export interface Profile {
   id: number;
   firstName: string;
   lastName: string;
@@ -38,12 +37,12 @@ export type Profile = {
 
 };
 
-export type Lender = {
+export interface Lender {
   profile: Profile;
   lenderCriteria: LendingCriteria;
 };
 
-type LendingCriteria = {
+export interface LendingCriteria {
   maxAmount: number;
   ltv: number;
   minRate: number;
@@ -52,7 +51,7 @@ type LendingCriteria = {
   fico?: number;
 };
 
-type Borrower = {
+export interface Borrower {
   profile: Profile;
   // borrowerInfo: BorrowerInfo;
 };
@@ -60,7 +59,7 @@ type Borrower = {
 
 
 
-type Valuation = {
+export interface Valuation {
   appraisalCompany: string;
   appraiserName: string;
   appraisalDate: Date;
@@ -68,7 +67,7 @@ type Valuation = {
   assessedValue: number;
 };
 
-type DealInfo = {
+export interface DealInfo {
   amount: number;
   rate: number;
   term: number;
@@ -88,7 +87,7 @@ type DealInfo = {
   details: string;
 };
 
-type Encumbrance = {
+export interface Encumbrance {
   mtgPosition: number;
   mtgHolder: string;
   mtgNumber: string;
@@ -100,14 +99,14 @@ type Encumbrance = {
   arrears?: number;
 };
 
-type Address = {
+export interface Address {
   street: string;
   city: string;
   province: string;
   postalCode: string;
 };
 
-export type PropertyInfo = {
+export interface PropertyInfo {
   address: Address;
   legalDescription: string;
   encumbrances?: Encumbrance[];
