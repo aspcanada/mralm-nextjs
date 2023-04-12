@@ -1,15 +1,16 @@
 import { PaperClipIcon } from '@heroicons/react/20/solid'
-import { PropertyInfo } from "@/interfaces"
+import { Deal, PropertyInfo } from "@/interfaces"
 import { currencyFormat } from "@/utils/helpers"
+import { useRouter } from "next/router"
+import { useDeal } from '@/utils/hooks'
 
-type PropertyDetailProps = {
-  // user?: any
-  // loading?: boolean
-  property: PropertyInfo
-}
 
-export default function PropertyDetail({props }: { props: PropertyDetailProps }) {
-  const { property } = props
+export default function PropertyDetail() {
+  const router = useRouter()
+  const { id } = router.query
+  const { deal, isLoading, isError } = useDeal(id)
+  if (isLoading) return <div>Loading...</div>
+  if (isError) return <div>Error...</div>
 
   return (
     <div>
@@ -20,28 +21,28 @@ export default function PropertyDetail({props }: { props: PropertyDetailProps })
         <dl className="sm:divide-y sm:divide-gray-200">
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">City</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{property.address.city}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.propertyInfo.address.city}</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Title</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{property.title}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.propertyInfo.title}</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Occupancy</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{property.occupancy}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.propertyInfo.occupancy}</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Style</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{property.style}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.propertyInfo.style}</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Property Tax</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{currencyFormat(property.annualPropertyTax)}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{currencyFormat(deal.propertyInfo.annualPropertyTax)}</dd>
           </div>
           {/* <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Details</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-              {property.details}
+              {deal.propertyInfo.details}
             </dd>
           </div> */}
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">

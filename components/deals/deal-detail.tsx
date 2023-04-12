@@ -1,15 +1,15 @@
 import { PaperClipIcon } from '@heroicons/react/20/solid'
 import { Deal } from "@/interfaces"
 import { currencyFormat } from "@/utils/helpers"
+import { useRouter } from "next/router"
+import { useDeal } from '@/utils/hooks'
 
-type DealDetailProps = {
-  // user?: any
-  // loading?: boolean
-  deal: any
-}
-
-export default function DealDetail({props }: { props: DealDetailProps }) {
-  const { deal } = props
+export default function DealDetail() {
+  const router = useRouter()
+  const { id } = router.query
+  const { deal, isLoading, isError } = useDeal(id)
+  if (isLoading) return <div>Loading...</div>
+  if (isError) return <div>Error...</div>
 
   return (
     <div>
@@ -24,19 +24,19 @@ export default function DealDetail({props }: { props: DealDetailProps }) {
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Amount</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{currencyFormat(deal.amount)}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{currencyFormat(deal.dealInfo.amount)}</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Term</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.term} years</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.dealInfo.term} years</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Purpose</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.purpose}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.dealInfo.purpose}</dd>
           </div>
           <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Closing Date</dt>
-            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.date}</dd>
+            <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.dealInfo.closingDate.split('T')[0]}</dd>
           </div>
           {/* <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Details</dt>

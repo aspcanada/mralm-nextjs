@@ -1,19 +1,18 @@
+import { percentFormat } from "@/utils/helpers"
+import { useRouter } from "next/router"
+import { useDeal } from '@/utils/hooks'
 
-
-type KeyMetricsProps = {
-  // user?: any
-  // loading?: boolean
-  deal: any
-}
-
-
-export default function KeyMetrics({props }: { props: KeyMetricsProps }) {
-  const { deal } = props
+export default function KeyMetrics() {
+  const router = useRouter()
+  const { id } = router.query
+  const { deal, isLoading, isError } = useDeal(id)
+  if (isLoading) return <div>Loading...</div>
+  if (isError) return <div>Error...</div>
 
   const stats = [
-    { name: 'LTV', stat: `${deal.ltv}%` },
-    { name: 'Interest Rate', stat: `${deal.rate}%` },
-    { name: 'Mortgage Position', stat: deal.position },
+    { name: 'LTV', stat: `${percentFormat((deal.dealInfo.amount / deal.valuation.appraisedValue) * 100)}` },
+    { name: 'Interest Rate', stat: `${deal.dealInfo.rate}%` },
+    { name: 'Mortgage Position', stat: deal.dealInfo.position },
   ]
 
   return (

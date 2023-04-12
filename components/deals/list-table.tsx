@@ -2,9 +2,6 @@ import { Deal } from "@/interfaces"
 import Link from "next/link"
 import { currencyFormat, percentFormat } from "@/utils/helpers"
 
-// import a date formatter
-// import { format } from "date-fns"
-
 type DealListTableProps = {
   // user?: any
   // loading?: boolean
@@ -13,7 +10,6 @@ type DealListTableProps = {
 
 export default function DealListTable({ props }: { props: DealListTableProps }) {
   const { deals } = props
-
 
   return (
     <>
