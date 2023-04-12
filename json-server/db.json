@@ -1,577 +1,1896 @@
 {
   "deals": [
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=55945",
-        "https://loremflickr.com/640/480/house?lock=25403",
-        "https://loremflickr.com/640/480/house?lock=48966",
-        "https://loremflickr.com/640/480/house?lock=41584"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1109.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "0bef163d-0088-487e-8c7b-5252b9b1afa5",
+      "dealInfo": {
+        "amount": 150677,
+        "rate": 10,
+        "term": 3,
+        "position": 2,
+        "exitStrategy": "Refinance and Hold",
+        "purpose": "Purchase",
+        "closingDate": "2024-04-06T07:27:45.530Z",
+        "interestOnly": true,
+        "marketabilityRanking": 6,
+        "paymentFrequency": "Yearly",
+        "details": "Inventore et aperiam ipsum corporis beatae natus. Veritatis ratione doloremque. Asperiores laudantium eligendi placeat pariatur praesentium. Labore pariatur in deleniti accusamus similique sit aliquid facilis exercitationem. Eligendi architecto perspiciatis soluta omnis voluptatem dignissimos aut."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "934 Reinger Fall",
+          "city": "Sudbury",
+          "province": "Quebec",
+          "postalCode": "G0M 2F3"
+        },
+        "legalDescription": "Minus quaerat laborum.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Conn and Sons",
+            "mtgNumber": "8af1b05c-9787-4441-b187-16ed4c0f0e05",
+            "balance": 175146,
+            "payment": 1985,
+            "paymentFrequency": "Monthly",
+            "interestRate": 8.5,
+            "maturityDate": "2023-11-04T10:47:17.864Z",
+            "arrears": 2975
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 1937,
+        "monthlyMaintFee": 206,
+        "salePrice": 224976,
+        "taxArrears": 2803,
+        "leins": 1268,
+        "occupancy": "Investment",
+        "leaseAgreement": true,
+        "style": "Other",
+        "well": false,
+        "septic": true,
+        "zoning": "Mixed Use",
+        "numUnits": 4,
+        "rentalIncome": 1003,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=74120",
+          "https://loremflickr.com/640/480/house?lock=89348",
+          "https://loremflickr.com/640/480/house?lock=80347"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Jones - Brekke",
+        "appraiserName": "Kathryn Langworth",
+        "appraisalDate": "2023-02-18T01:40:21.448Z",
+        "appraisedValue": 340118,
+        "assessedValue": 279062
+      },
       "label": ["Expired"],
-      "city": "Vancouver",
-      "title": "Little Acorn Farm 0",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 124358,
-      "term": 1,
-      "rate": 7.3,
-      "ltv": 75,
-      "position": 1,
-      "date": "Aug 4, 2022",
-      "id": 0
+      "borrower": {
+        "profile": {
+          "id": "37312959-0a3b-4593-8793-58b7e191c94e",
+          "firstName": "Florian",
+          "lastName": "Rath",
+          "email": "Abigayle87@gmail.com",
+          "phone": "245-991-0047",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
+          "occupation": "Corporate Optimization Consultant",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=53140",
-        "https://loremflickr.com/640/480/house?lock=10711",
-        "https://loremflickr.com/640/480/house?lock=25628"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/788.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "8a06940c-ab64-4916-bf9f-6c4d15fa2956",
+      "dealInfo": {
+        "amount": 119728,
+        "rate": 7.8,
+        "term": 1,
+        "position": 1,
+        "exitStrategy": "Refinance and Sell",
+        "purpose": "Purchase",
+        "closingDate": "2023-07-22T08:28:21.715Z",
+        "interestOnly": false,
+        "marketabilityRanking": 3,
+        "paymentFrequency": "Yearly",
+        "details": "Quas dolores atque ut velit vero. Suscipit sed molestiae blanditiis ullam illo odit. In voluptatum cum error velit repudiandae consequatur enim officia. Saepe consequuntur eaque illo eius eum recusandae eveniet sed. Ad adipisci vel."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "219 Ardella Ferry",
+          "city": "Kitchener",
+          "province": "Ontario",
+          "postalCode": "B2O 2I7"
+        },
+        "legalDescription": "Soluta nihil aliquid impedit voluptatem officiis nisi atque at vitae.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Green - Willms",
+            "mtgNumber": "b2114f17-11b8-4a19-88fa-3ef929ec147a",
+            "balance": 184090,
+            "payment": 1306,
+            "paymentFrequency": "Monthly",
+            "interestRate": 8.3,
+            "maturityDate": "2023-11-16T00:40:04.894Z",
+            "arrears": 2506
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 1110,
+        "monthlyMaintFee": 200,
+        "salePrice": 137876,
+        "taxArrears": 1774,
+        "leins": 2191,
+        "occupancy": "Owner Occupied",
+        "leaseAgreement": false,
+        "style": "Triplex",
+        "well": false,
+        "septic": false,
+        "zoning": "Industrial",
+        "numUnits": 4,
+        "rentalIncome": 2100,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=70146",
+          "https://loremflickr.com/640/480/house?lock=33018",
+          "https://loremflickr.com/640/480/house?lock=82515"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Halvorson, Macejkovic and Kessler",
+        "appraiserName": "Tricia Flatley MD",
+        "appraisalDate": "2022-12-10T06:08:36.427Z",
+        "appraisedValue": 496891,
+        "assessedValue": 711319
+      },
       "label": ["Expired"],
-      "city": "Montreal",
-      "title": "Little Acorn Farm 1",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 201437,
-      "term": 9,
-      "rate": 12.5,
-      "ltv": 72,
-      "position": 2,
-      "date": "Apr 24, 2023",
-      "id": 1
+      "borrower": {
+        "profile": {
+          "id": "ac19ea86-1e8b-4484-a69d-adbad6dbce99",
+          "firstName": "Marielle",
+          "lastName": "Runte",
+          "email": "Audreanne.Kiehn71@hotmail.com",
+          "phone": "695-582-4583",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/645.jpg",
+          "occupation": "Legacy Assurance Analyst",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=91692",
-        "https://loremflickr.com/640/480/house?lock=52063",
-        "https://loremflickr.com/640/480/house?lock=3785"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "04e8b554-fced-4ca6-aa24-0fe6d5dede3d",
+      "dealInfo": {
+        "amount": 79105,
+        "rate": 10.6,
+        "term": 2,
+        "position": 3,
+        "exitStrategy": "Refinance and Sell",
+        "purpose": "Home Renovation",
+        "closingDate": "2023-07-07T20:12:32.297Z",
+        "interestOnly": true,
+        "marketabilityRanking": 1,
+        "paymentFrequency": "Quarterly",
+        "details": "Ad natus dolor blanditiis quas. Veniam cupiditate quos vel perspiciatis nisi. Earum facilis in saepe totam quis beatae nihil."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "108 Homenick Mountain",
+          "city": "Halifax",
+          "province": "Quebec",
+          "postalCode": "O7N 3N7"
+        },
+        "legalDescription": "Nihil quam accusantium corporis.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "White - Walsh",
+            "mtgNumber": "3e5d0bff-b96a-4e6e-867d-93632c6f3de4",
+            "balance": 249544,
+            "payment": 2828,
+            "paymentFrequency": "Yearly",
+            "interestRate": 8.4,
+            "maturityDate": "2023-07-08T22:15:40.303Z",
+            "arrears": 1872
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 1033,
+        "monthlyMaintFee": 216,
+        "salePrice": 236536,
+        "taxArrears": 2630,
+        "leins": 1973,
+        "occupancy": "Rental",
+        "leaseAgreement": true,
+        "style": "Mobile Home",
+        "well": false,
+        "septic": true,
+        "zoning": "Residential",
+        "numUnits": 2,
+        "rentalIncome": 1522,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=56008",
+          "https://loremflickr.com/640/480/house?lock=65213",
+          "https://loremflickr.com/640/480/house?lock=49685"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "O'Connell - Connelly",
+        "appraiserName": "Christian Friesen",
+        "appraisalDate": "2022-10-11T17:31:24.756Z",
+        "appraisedValue": 430924,
+        "assessedValue": 438002
+      },
       "label": ["Expired"],
-      "city": "Toronto",
-      "title": "Little Acorn Farm 2",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 284427,
-      "term": 1,
-      "rate": 9,
-      "ltv": 70,
-      "position": 1,
-      "date": "Aug 4, 2022",
-      "id": 2
+      "borrower": {
+        "profile": {
+          "id": "a7cdcd70-a362-474d-ad74-da31a0983f71",
+          "firstName": "Alec",
+          "lastName": "Kutch",
+          "email": "Devonte61@gmail.com",
+          "phone": "034-432-2150",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/882.jpg",
+          "occupation": "Direct Data Executive",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=6182",
-        "https://loremflickr.com/640/480/house?lock=91666",
-        "https://loremflickr.com/640/480/house?lock=64198",
-        "https://loremflickr.com/640/480/house?lock=22576"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/893.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "fe701f1f-ed34-4d09-bbe8-5c01def82628",
+      "dealInfo": {
+        "amount": 180897,
+        "rate": 12.5,
+        "term": 1,
+        "position": 1,
+        "exitStrategy": "Refinance and Sell",
+        "purpose": "Home Renovation",
+        "closingDate": "2023-10-12T15:14:32.622Z",
+        "interestOnly": false,
+        "marketabilityRanking": 6,
+        "paymentFrequency": "Quarterly",
+        "details": "Commodi non repellat cum modi earum cum delectus iure. Facere libero aperiam exercitationem eum incidunt. Voluptatum laudantium porro nostrum veniam odit consequatur sit."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "1009 Bayer Mews",
+          "city": "Oakville",
+          "province": "Saskatchewan",
+          "postalCode": "X9E 2W1"
+        },
+        "legalDescription": "Dolorum natus asperiores debitis quae ut inventore culpa.",
+        "encumbrances": [
+          {
+            "mtgPosition": 1,
+            "mtgHolder": "Macejkovic and Sons",
+            "mtgNumber": "e0fb3e6b-9bbb-4e2d-a3a9-50daa8faa4e5",
+            "balance": 219252,
+            "payment": 2815,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 8.5,
+            "maturityDate": "2024-02-06T04:59:30.801Z",
+            "arrears": 2768
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2974,
+        "monthlyMaintFee": 108,
+        "salePrice": 142824,
+        "taxArrears": 2405,
+        "leins": 2925,
+        "occupancy": "Second Home",
+        "leaseAgreement": false,
+        "style": "Duplex",
+        "well": true,
+        "septic": true,
+        "zoning": "Commercial",
+        "numUnits": 1,
+        "rentalIncome": 1810,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=63632",
+          "https://loremflickr.com/640/480/house?lock=98017",
+          "https://loremflickr.com/640/480/house?lock=97"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Kutch, Kunde and Breitenberg",
+        "appraiserName": "Dr. Janis Cronin I",
+        "appraisalDate": "2022-05-02T09:25:01.394Z",
+        "appraisedValue": 338502,
+        "assessedValue": 632908
+      },
       "label": ["Active"],
-      "city": "Kelowna",
-      "title": "Little Acorn Farm 3",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 287878,
-      "term": 2,
-      "rate": 8.9,
-      "ltv": 72,
-      "position": 2,
-      "date": "Aug 14, 2023",
-      "id": 3
+      "borrower": {
+        "profile": {
+          "id": "14a3c98c-5de9-4908-920f-db255930c98b",
+          "firstName": "Reanna",
+          "lastName": "Schaefer",
+          "email": "Madison.Donnelly22@yahoo.com",
+          "phone": "433-705-8957",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+          "occupation": "Chief Division Orchestrator",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=18414",
-        "https://loremflickr.com/640/480/house?lock=27914",
-        "https://loremflickr.com/640/480/house?lock=22257",
-        "https://loremflickr.com/640/480/house?lock=28275"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
-      "purpose": "Debt Consolidation",
-      "label": ["Active"],
-      "city": "Prince George",
-      "title": "Little Acorn Farm 4",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 282386,
-      "term": 6,
-      "rate": 9.6,
-      "ltv": 75,
-      "position": 2,
-      "date": "Jan 3, 2022",
-      "id": 4
-    },
-    {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=77447",
-        "https://loremflickr.com/640/480/house?lock=95220"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/697.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "4bfc4065-8497-436e-8a68-e3e4b95c8856",
+      "dealInfo": {
+        "amount": 97869,
+        "rate": 12.1,
+        "term": 1,
+        "position": 2,
+        "exitStrategy": "Refinance and Hold",
+        "purpose": "Refinance",
+        "closingDate": "2023-12-13T06:46:37.571Z",
+        "interestOnly": false,
+        "marketabilityRanking": 3,
+        "paymentFrequency": "Quarterly",
+        "details": "Inventore officia fugiat natus commodi voluptatem suscipit quia possimus. Dolor blanditiis aliquam labore soluta. Ipsam eligendi libero incidunt maxime quisquam praesentium praesentium iure. Perferendis quae qui."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "233 Zoie Groves",
+          "city": "Vancouver",
+          "province": "New Brunswick",
+          "postalCode": "X9M 0I1"
+        },
+        "legalDescription": "Asperiores officia voluptatum aut quibusdam quod incidunt.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Turner - Kuhlman",
+            "mtgNumber": "7748e2f3-d2e1-498d-b092-d8df87a0cdc4",
+            "balance": 157464,
+            "payment": 2221,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 7.6,
+            "maturityDate": "2023-09-26T13:22:28.520Z",
+            "arrears": 2271
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 2048,
+        "monthlyMaintFee": 275,
+        "salePrice": 264407,
+        "taxArrears": 2768,
+        "leins": 1714,
+        "occupancy": "Investment",
+        "leaseAgreement": false,
+        "style": "Apartment",
+        "well": false,
+        "septic": false,
+        "zoning": "Industrial",
+        "numUnits": 4,
+        "rentalIncome": 1833,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=29203",
+          "https://loremflickr.com/640/480/house?lock=87690",
+          "https://loremflickr.com/640/480/house?lock=47574"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Hickle and Sons",
+        "appraiserName": "Rachel Prohaska",
+        "appraisalDate": "2022-10-08T05:37:50.206Z",
+        "appraisedValue": 503008,
+        "assessedValue": 756476
+      },
       "label": ["Expired"],
-      "city": "Victoria",
-      "title": "Little Acorn Farm 5",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 260492,
-      "term": 3,
-      "rate": 10.3,
-      "ltv": 80,
-      "position": 2,
-      "date": "Aug 4, 2022",
-      "id": 5
+      "borrower": {
+        "profile": {
+          "id": "41469485-073d-4bd8-a1b3-899feed7d5e7",
+          "firstName": "Braulio",
+          "lastName": "Hegmann",
+          "email": "Jaclyn98@hotmail.com",
+          "phone": "008-733-8995",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
+          "occupation": "Global Configuration Strategist",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=69602",
-        "https://loremflickr.com/640/480/house?lock=59953",
-        "https://loremflickr.com/640/480/house?lock=3137"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/855.jpg",
-      "purpose": "Debt Consolidation",
-      "label": ["Expired"],
-      "city": "North Vancouver",
-      "title": "Little Acorn Farm 6",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 295946,
-      "term": 1,
-      "rate": 9,
-      "ltv": 79,
-      "position": 2,
-      "date": "Aug 4, 2022",
-      "id": 6
-    },
-    {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=34187",
-        "https://loremflickr.com/640/480/house?lock=26811",
-        "https://loremflickr.com/640/480/house?lock=32322"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "12e00b66-317f-4c40-8286-1e8f7cf0548c",
+      "dealInfo": {
+        "amount": 105705,
+        "rate": 11.8,
+        "term": 1,
+        "position": 2,
+        "exitStrategy": "Sell",
+        "purpose": "Commercial",
+        "closingDate": "2023-06-16T20:56:51.189Z",
+        "interestOnly": false,
+        "marketabilityRanking": 9,
+        "paymentFrequency": "Quarterly",
+        "details": "Sed reiciendis nemo. Reprehenderit quisquam est dolor nobis sint molestiae a recusandae. Laudantium repellat quia quaerat ab molestias praesentium soluta. Facere optio a ea aliquid."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "501 Parker Greens",
+          "city": "Quebec City",
+          "province": "Prince Edward Island",
+          "postalCode": "N7K 4A9"
+        },
+        "legalDescription": "Debitis corporis esse non cupiditate.",
+        "encumbrances": [
+          {
+            "mtgPosition": 1,
+            "mtgHolder": "Koch Group",
+            "mtgNumber": "683cc1fd-1f15-4446-9afb-aa082289e27c",
+            "balance": 270625,
+            "payment": 1452,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 10.5,
+            "maturityDate": "2023-08-10T01:54:26.595Z",
+            "arrears": 2098
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 1511,
+        "monthlyMaintFee": 260,
+        "salePrice": 185731,
+        "taxArrears": 1241,
+        "leins": 2358,
+        "occupancy": "Rental",
+        "leaseAgreement": false,
+        "style": "Semi-Detached",
+        "well": true,
+        "septic": false,
+        "zoning": "Mixed Use",
+        "numUnits": 5,
+        "rentalIncome": 1503,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=24369",
+          "https://loremflickr.com/640/480/house?lock=21274",
+          "https://loremflickr.com/640/480/house?lock=66082"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Schuppe - Ankunding",
+        "appraiserName": "Debbie Nicolas",
+        "appraisalDate": "2022-12-23T23:25:09.499Z",
+        "appraisedValue": 551254,
+        "assessedValue": 730698
+      },
       "label": ["Active"],
-      "city": "Surrey",
-      "title": "Little Acorn Farm 7",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 173900,
-      "term": 2,
-      "rate": 12.5,
-      "ltv": 80,
-      "position": 2,
-      "date": "Aug 4, 2022",
-      "id": 7
+      "borrower": {
+        "profile": {
+          "id": "747f1fb1-5a91-45dd-b712-476cde864170",
+          "firstName": "Jovanny",
+          "lastName": "Roberts",
+          "email": "Jacquelyn.Bergstrom98@yahoo.com",
+          "phone": "847-733-8983",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/127.jpg",
+          "occupation": "Regional Marketing Manager",
+          "isLender": false,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=10090",
-        "https://loremflickr.com/640/480/house?lock=15022"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/182.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "3fa9bfa1-39ea-451f-ae3a-ca7d9c0991b7",
+      "dealInfo": {
+        "amount": 88663,
+        "rate": 7.4,
+        "term": 1,
+        "position": 1,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Debt Consolidation",
+        "closingDate": "2023-11-13T04:07:14.989Z",
+        "interestOnly": true,
+        "marketabilityRanking": 9,
+        "paymentFrequency": "Yearly",
+        "details": "Minus debitis ullam eum molestiae rem nihil numquam iure esse. Illo eveniet perspiciatis accusantium voluptatibus aut soluta sapiente earum dolor. Nulla delectus quis natus earum itaque id optio praesentium perspiciatis. Nulla quos aliquid totam modi quia odio. Rem hic incidunt."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "4284 Carmella Tunnel",
+          "city": "London",
+          "province": "Nova Scotia",
+          "postalCode": "O1U 1C4"
+        },
+        "legalDescription": "Aliquid sint dolore doloribus animi ipsum atque.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Adams Inc",
+            "mtgNumber": "03f07cc1-4356-4e13-92d6-edff5e852985",
+            "balance": 213916,
+            "payment": 1835,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 8,
+            "maturityDate": "2023-08-24T10:59:01.653Z",
+            "arrears": 1966
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2308,
+        "monthlyMaintFee": 160,
+        "salePrice": 287055,
+        "taxArrears": 2836,
+        "leins": 1773,
+        "occupancy": "Second Home",
+        "leaseAgreement": true,
+        "style": "Condo",
+        "well": false,
+        "septic": true,
+        "zoning": "Mixed Use",
+        "numUnits": 4,
+        "rentalIncome": 2282,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=66519",
+          "https://loremflickr.com/640/480/house?lock=32819",
+          "https://loremflickr.com/640/480/house?lock=56766"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Luettgen, Hartmann and Anderson",
+        "appraiserName": "Ms. Kristy Purdy",
+        "appraisalDate": "2022-09-17T13:05:24.906Z",
+        "appraisedValue": 345152,
+        "assessedValue": 359012
+      },
       "label": ["Expired"],
-      "city": "Chilliwack",
-      "title": "Little Acorn Farm 8",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 274938,
-      "term": 1,
-      "rate": 7.2,
-      "ltv": 70,
-      "position": 1,
-      "date": "July 4, 2022",
-      "id": 8
+      "borrower": {
+        "profile": {
+          "id": "de01e15e-805f-4a0c-bea0-239cb5c49428",
+          "firstName": "Santino",
+          "lastName": "Ruecker",
+          "email": "Dawson91@yahoo.com",
+          "phone": "516-351-8400",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+          "occupation": "Global Functionality Technician",
+          "isLender": false,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=78806",
-        "https://loremflickr.com/640/480/house?lock=79022",
-        "https://loremflickr.com/640/480/house?lock=6057"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1214.jpg",
-      "purpose": "Debt Consolidation",
-      "label": ["Active"],
-      "city": "Red Deer",
-      "title": "Little Acorn Farm 9",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 164811,
-      "term": 1,
-      "rate": 8.9,
-      "ltv": 71,
-      "position": 2,
-      "date": "Nov 14, 2022",
-      "id": 9
-    },
-    {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=40378",
-        "https://loremflickr.com/640/480/house?lock=386",
-        "https://loremflickr.com/640/480/house?lock=13499",
-        "https://loremflickr.com/640/480/house?lock=99863"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "9934f58c-aa0e-42e3-b144-64d6da09efe8",
+      "dealInfo": {
+        "amount": 102843,
+        "rate": 11.6,
+        "term": 3,
+        "position": 2,
+        "exitStrategy": "Refinance",
+        "purpose": "Purchase",
+        "closingDate": "2023-07-17T23:30:28.995Z",
+        "interestOnly": true,
+        "marketabilityRanking": 4,
+        "paymentFrequency": "Monthly",
+        "details": "Tenetur harum recusandae aliquid impedit natus amet deserunt occaecati tenetur. Numquam consequatur veniam eveniet perferendis veniam. Ipsam numquam sed inventore ducimus optio sit expedita aliquid magnam."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "67700 Reilly Ford",
+          "city": "London",
+          "province": "Newfoundland and Labrador",
+          "postalCode": "M6S 3Z5"
+        },
+        "legalDescription": "Culpa culpa incidunt quisquam amet ullam debitis doloribus praesentium sequi.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Braun Group",
+            "mtgNumber": "5e75e07c-9fd8-4f25-b5c4-55afb9be5806",
+            "balance": 233580,
+            "payment": 2289,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 10.7,
+            "maturityDate": "2023-09-02T08:41:22.962Z",
+            "arrears": 2213
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 1082,
+        "monthlyMaintFee": 143,
+        "salePrice": 236251,
+        "taxArrears": 1092,
+        "leins": 1651,
+        "occupancy": "Rental",
+        "leaseAgreement": false,
+        "style": "Triplex",
+        "well": false,
+        "septic": false,
+        "zoning": "Agricultural",
+        "numUnits": 5,
+        "rentalIncome": 1056,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=59463",
+          "https://loremflickr.com/640/480/house?lock=81696",
+          "https://loremflickr.com/640/480/house?lock=66518"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Bernhard LLC",
+        "appraiserName": "Oscar Hand II",
+        "appraisalDate": "2022-09-27T01:08:18.381Z",
+        "appraisedValue": 865452,
+        "assessedValue": 246807
+      },
       "label": ["Expired"],
-      "city": "Edmonton",
-      "title": "Little Acorn Farm 10",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 189235,
-      "term": 3,
-      "rate": 9.9,
-      "ltv": 71,
-      "position": 1,
-      "date": "Aug 4, 2022",
-      "id": 10
+      "borrower": {
+        "profile": {
+          "id": "155446f0-b2b1-4418-80e3-b62d994c0333",
+          "firstName": "Reta",
+          "lastName": "Tromp",
+          "email": "Virgil.Roberts3@gmail.com",
+          "phone": "068-235-9357",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+          "occupation": "Legacy Interactions Technician",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
     },
     {
-      "img": [
-        "https://loremflickr.com/640/480/house?lock=79680",
-        "https://loremflickr.com/640/480/house?lock=47447"
-      ],
-      "memberAvatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/330.jpg",
-      "purpose": "Debt Consolidation",
+      "id": "d34e8179-ed52-4910-a3aa-ae4d0e7dd34b",
+      "dealInfo": {
+        "amount": 101375,
+        "rate": 9.9,
+        "term": 2,
+        "position": 2,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Home Renovation",
+        "closingDate": "2023-04-24T11:53:54.297Z",
+        "interestOnly": false,
+        "marketabilityRanking": 8,
+        "paymentFrequency": "Quarterly",
+        "details": "Sed officia modi pariatur dicta ipsa cumque. Labore vero corporis tenetur doloremque nam ad. Occaecati voluptas quasi repellendus nihil inventore nisi. Eius deleniti dolore beatae consequatur voluptates."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "43624 Felicita Hollow",
+          "city": "Markham",
+          "province": "Ontario",
+          "postalCode": "K6U 3H7"
+        },
+        "legalDescription": "Accusamus quaerat accusamus omnis aspernatur quia cum laudantium sapiente iusto.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Weissnat, Ratke and Harvey",
+            "mtgNumber": "9b8d07ee-1fd5-4666-b159-c13b06948902",
+            "balance": 128908,
+            "payment": 2848,
+            "paymentFrequency": "Monthly",
+            "interestRate": 10.2,
+            "maturityDate": "2023-06-08T06:00:15.065Z",
+            "arrears": 2758
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2960,
+        "monthlyMaintFee": 210,
+        "salePrice": 236764,
+        "taxArrears": 2509,
+        "leins": 2238,
+        "occupancy": "Rental",
+        "leaseAgreement": false,
+        "style": "Mobile Home",
+        "well": true,
+        "septic": true,
+        "zoning": "Agricultural",
+        "numUnits": 3,
+        "rentalIncome": 1305,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=97386",
+          "https://loremflickr.com/640/480/house?lock=99050",
+          "https://loremflickr.com/640/480/house?lock=60212"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Grimes - Turcotte",
+        "appraiserName": "Dr. Frank Feil",
+        "appraisalDate": "2022-08-13T11:08:33.128Z",
+        "appraisedValue": 396020,
+        "assessedValue": 645952
+      },
+      "label": ["Expired"],
+      "borrower": {
+        "profile": {
+          "id": "6b485b1b-40ab-40e4-bda5-053057e54139",
+          "firstName": "Jeanne",
+          "lastName": "Batz",
+          "email": "Hallie34@hotmail.com",
+          "phone": "189-925-5050",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+          "occupation": "Human Operations Administrator",
+          "isLender": false,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "38b5154e-1b7d-466c-b21a-5414dd5e53e9",
+      "dealInfo": {
+        "amount": 127019,
+        "rate": 12.1,
+        "term": 2,
+        "position": 2,
+        "exitStrategy": "Refinance and Sell",
+        "purpose": "Commercial",
+        "closingDate": "2023-12-28T16:07:29.036Z",
+        "interestOnly": true,
+        "marketabilityRanking": 4,
+        "paymentFrequency": "Yearly",
+        "details": "Maiores sed tenetur unde laborum facere minima unde. Nihil sunt cumque at. Iure consectetur tenetur eaque fugit dolorem quas soluta. Similique nihil impedit."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "90919 Tillman Parkways",
+          "city": "White Rock",
+          "province": "New Brunswick",
+          "postalCode": "J7B 2L4"
+        },
+        "legalDescription": "Nihil nisi commodi consectetur nobis incidunt laborum ad.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Pfeffer - Goyette",
+            "mtgNumber": "b5d15c85-c9fb-465e-a0bf-41dfcbfd34df",
+            "balance": 221042,
+            "payment": 1880,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 7.1,
+            "maturityDate": "2023-08-04T13:00:21.384Z",
+            "arrears": 1281
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 1546,
+        "monthlyMaintFee": 154,
+        "salePrice": 113584,
+        "taxArrears": 1102,
+        "leins": 2413,
+        "occupancy": "Investment",
+        "leaseAgreement": true,
+        "style": "Duplex",
+        "well": true,
+        "septic": false,
+        "zoning": "Mixed Use",
+        "numUnits": 4,
+        "rentalIncome": 1739,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=38718",
+          "https://loremflickr.com/640/480/house?lock=85983",
+          "https://loremflickr.com/640/480/house?lock=18892"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Walter - Witting",
+        "appraiserName": "Silvia Koss",
+        "appraisalDate": "2023-01-16T03:54:51.129Z",
+        "appraisedValue": 331679,
+        "assessedValue": 641775
+      },
+      "label": ["Expired"],
+      "borrower": {
+        "profile": {
+          "id": "a7cdcd70-a362-474d-ad74-da31a0983f71",
+          "firstName": "Alec",
+          "lastName": "Kutch",
+          "email": "Devonte61@gmail.com",
+          "phone": "034-432-2150",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/882.jpg",
+          "occupation": "Direct Data Executive",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "f7f73b82-0182-4874-91b1-83b864cf82fe",
+      "dealInfo": {
+        "amount": 70908,
+        "rate": 12.6,
+        "term": 2,
+        "position": 2,
+        "exitStrategy": "Refinance and Sell",
+        "purpose": "Purchase",
+        "closingDate": "2023-08-16T12:08:34.641Z",
+        "interestOnly": false,
+        "marketabilityRanking": 7,
+        "paymentFrequency": "Monthly",
+        "details": "Iusto expedita quaerat. Ipsam ullam nostrum accusamus eaque iusto repudiandae. Iste placeat accusantium debitis nulla excepturi. Qui repudiandae magnam optio mollitia recusandae ducimus. Vel ducimus corrupti quos modi possimus eligendi."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "1220 Walter Centers",
+          "city": "Richmond Hill",
+          "province": "British Columbia",
+          "postalCode": "F0W 0E0"
+        },
+        "legalDescription": "Sunt omnis et ut a repudiandae facere temporibus accusamus minus.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Koch Group",
+            "mtgNumber": "8fd8c2f6-60ff-43a9-a8c1-ed67f47005a0",
+            "balance": 177321,
+            "payment": 1516,
+            "paymentFrequency": "Yearly",
+            "interestRate": 9.2,
+            "maturityDate": "2023-12-06T22:34:11.425Z",
+            "arrears": 2900
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2277,
+        "monthlyMaintFee": 201,
+        "salePrice": 113088,
+        "taxArrears": 1758,
+        "leins": 1599,
+        "occupancy": "Investment",
+        "leaseAgreement": true,
+        "style": "Semi-Detached",
+        "well": false,
+        "septic": false,
+        "zoning": "Residential",
+        "numUnits": 4,
+        "rentalIncome": 1758,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=58310",
+          "https://loremflickr.com/640/480/house?lock=53457",
+          "https://loremflickr.com/640/480/house?lock=24899"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Schmidt, Thiel and Hahn",
+        "appraiserName": "Antonio Frami DDS",
+        "appraisalDate": "2022-07-30T05:34:51.589Z",
+        "appraisedValue": 639388,
+        "assessedValue": 229091
+      },
       "label": ["Active"],
-      "city": "Calgary",
-      "title": "Little Acorn Farm 11",
-      "details": "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-      "amount": 105866,
-      "term": 1,
-      "rate": 9.1,
-      "ltv": 71,
-      "position": 2,
-      "date": "Aug 4, 2022",
-      "id": 11
+      "borrower": {
+        "profile": {
+          "id": "7098e961-a6a5-4b84-a860-fa27fc11c0e2",
+          "firstName": "Tia",
+          "lastName": "Rath",
+          "email": "Gussie_Gorczany@yahoo.com",
+          "phone": "080-221-9172",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+          "occupation": "Senior Data Developer",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "4343c8f1-ca56-46b7-97d4-9d1f7e53debb",
+      "dealInfo": {
+        "amount": 51488,
+        "rate": 10.1,
+        "term": 3,
+        "position": 3,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Home Renovation",
+        "closingDate": "2024-04-01T03:06:03.712Z",
+        "interestOnly": false,
+        "marketabilityRanking": 4,
+        "paymentFrequency": "Quarterly",
+        "details": "Animi corporis sapiente modi nam qui. Molestias repellat sint soluta saepe perferendis eaque distinctio. Nobis atque aliquam deserunt fugiat rem dignissimos."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "6874 Leonard Village",
+          "city": "Richmond Hill",
+          "province": "Quebec",
+          "postalCode": "I9H 1Q9"
+        },
+        "legalDescription": "Enim molestias pariatur culpa necessitatibus eligendi magni quia aspernatur.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Veum - Stiedemann",
+            "mtgNumber": "2abfe568-757b-45ea-8b68-eb68bdfdba66",
+            "balance": 257164,
+            "payment": 2422,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 10,
+            "maturityDate": "2023-10-12T21:54:12.202Z",
+            "arrears": 1762
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2585,
+        "monthlyMaintFee": 118,
+        "salePrice": 251801,
+        "taxArrears": 1098,
+        "leins": 2786,
+        "occupancy": "Owner Occupied",
+        "leaseAgreement": false,
+        "style": "Mobile Home",
+        "well": false,
+        "septic": false,
+        "zoning": "Agricultural",
+        "numUnits": 1,
+        "rentalIncome": 2280,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=68388",
+          "https://loremflickr.com/640/480/house?lock=72655",
+          "https://loremflickr.com/640/480/house?lock=24966"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Carroll and Sons",
+        "appraiserName": "Stella Rice III",
+        "appraisalDate": "2022-05-09T17:51:54.027Z",
+        "appraisedValue": 599497,
+        "assessedValue": 233102
+      },
+      "label": ["Active"],
+      "borrower": {
+        "profile": {
+          "id": "155446f0-b2b1-4418-80e3-b62d994c0333",
+          "firstName": "Reta",
+          "lastName": "Tromp",
+          "email": "Virgil.Roberts3@gmail.com",
+          "phone": "068-235-9357",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+          "occupation": "Legacy Interactions Technician",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "05cba287-63b5-46d9-8d47-6d75296b18bb",
+      "dealInfo": {
+        "amount": 142306,
+        "rate": 7.2,
+        "term": 3,
+        "position": 2,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Refinance",
+        "closingDate": "2023-12-03T13:03:07.262Z",
+        "interestOnly": true,
+        "marketabilityRanking": 10,
+        "paymentFrequency": "Quarterly",
+        "details": "Eos a blanditiis doloremque quaerat suscipit nulla possimus. Nostrum blanditiis voluptate quam quas itaque. Ipsum ullam laudantium dolorum repellendus qui. Iste recusandae odio aliquid omnis corrupti ea fugiat in."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "22419 Moen Loaf",
+          "city": "Toronto",
+          "province": "Saskatchewan",
+          "postalCode": "X3V 3A2"
+        },
+        "legalDescription": "Deserunt aperiam fuga sed error odit aspernatur repudiandae tenetur corrupti.",
+        "encumbrances": [
+          {
+            "mtgPosition": 1,
+            "mtgHolder": "Rosenbaum LLC",
+            "mtgNumber": "274cebad-4996-4846-bba2-9284d80b52bb",
+            "balance": 200694,
+            "payment": 1123,
+            "paymentFrequency": "Monthly",
+            "interestRate": 11.9,
+            "maturityDate": "2024-02-23T17:02:10.334Z",
+            "arrears": 1581
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2175,
+        "monthlyMaintFee": 259,
+        "salePrice": 206598,
+        "taxArrears": 1208,
+        "leins": 2919,
+        "occupancy": "Owner Occupied",
+        "leaseAgreement": true,
+        "style": "Triplex",
+        "well": false,
+        "septic": true,
+        "zoning": "Commercial",
+        "numUnits": 1,
+        "rentalIncome": 1173,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=91285",
+          "https://loremflickr.com/640/480/house?lock=75552",
+          "https://loremflickr.com/640/480/house?lock=62439"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "King, Kemmer and Gulgowski",
+        "appraiserName": "Billie Effertz DVM",
+        "appraisalDate": "2022-06-10T21:33:26.649Z",
+        "appraisedValue": 661104,
+        "assessedValue": 387472
+      },
+      "label": ["Active"],
+      "borrower": {
+        "profile": {
+          "id": "41469485-073d-4bd8-a1b3-899feed7d5e7",
+          "firstName": "Braulio",
+          "lastName": "Hegmann",
+          "email": "Jaclyn98@hotmail.com",
+          "phone": "008-733-8995",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
+          "occupation": "Global Configuration Strategist",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "6895af0a-74b1-4261-aad1-bd01a0f83402",
+      "dealInfo": {
+        "amount": 113590,
+        "rate": 7.9,
+        "term": 2,
+        "position": 2,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Commercial",
+        "closingDate": "2023-05-15T00:30:50.069Z",
+        "interestOnly": false,
+        "marketabilityRanking": 5,
+        "paymentFrequency": "Yearly",
+        "details": "Libero corrupti dolor. Modi ad impedit asperiores at. Ut voluptas delectus iste debitis praesentium sed corporis."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "099 Millie Shore",
+          "city": "Kitchener",
+          "province": "New Brunswick",
+          "postalCode": "S8I 4J8"
+        },
+        "legalDescription": "Laborum hic voluptas consequuntur magni.",
+        "encumbrances": [
+          {
+            "mtgPosition": 1,
+            "mtgHolder": "Denesik, Collins and Bartell",
+            "mtgNumber": "97259080-9f0f-4b86-88e6-8569568d6282",
+            "balance": 239876,
+            "payment": 2027,
+            "paymentFrequency": "Monthly",
+            "interestRate": 9,
+            "maturityDate": "2023-12-15T07:57:54.215Z",
+            "arrears": 2224
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 1816,
+        "monthlyMaintFee": 193,
+        "salePrice": 294018,
+        "taxArrears": 2735,
+        "leins": 1380,
+        "occupancy": "Rental",
+        "leaseAgreement": false,
+        "style": "Other",
+        "well": false,
+        "septic": false,
+        "zoning": "Industrial",
+        "numUnits": 5,
+        "rentalIncome": 1493,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=1334",
+          "https://loremflickr.com/640/480/house?lock=55295",
+          "https://loremflickr.com/640/480/house?lock=77965"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Pagac - Hudson",
+        "appraiserName": "Charlotte Gislason",
+        "appraisalDate": "2022-12-11T15:55:33.131Z",
+        "appraisedValue": 627234,
+        "assessedValue": 229876
+      },
+      "label": ["Active"],
+      "borrower": {
+        "profile": {
+          "id": "2b6c007f-2cd5-4f2a-b9cf-40a2e182c5e7",
+          "firstName": "Tanya",
+          "lastName": "Haley",
+          "email": "Felicia39@hotmail.com",
+          "phone": "496-825-1572",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/195.jpg",
+          "occupation": "National Research Specialist",
+          "isLender": false,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "8492e275-105c-472b-87a0-e9902db3933e",
+      "dealInfo": {
+        "amount": 123834,
+        "rate": 10.8,
+        "term": 1,
+        "position": 3,
+        "exitStrategy": "Refinance",
+        "purpose": "Debt Consolidation",
+        "closingDate": "2023-09-08T08:45:41.732Z",
+        "interestOnly": false,
+        "marketabilityRanking": 8,
+        "paymentFrequency": "Quarterly",
+        "details": "Minima asperiores magnam nemo consequatur quam. Nihil voluptatibus debitis reiciendis inventore. Optio dolorem similique. Maxime doloribus quia fugit repellat modi reiciendis architecto. Cupiditate at illo est alias placeat. Soluta iste praesentium."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "44528 Krystal Mount",
+          "city": "Longueuil",
+          "province": "Nova Scotia",
+          "postalCode": "U5O 7E1"
+        },
+        "legalDescription": "Sequi delectus illo maxime dolore cum vitae delectus dolorum.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Hamill - Legros",
+            "mtgNumber": "9d370753-76e9-4eee-aa77-bddb79ebc271",
+            "balance": 258392,
+            "payment": 2353,
+            "paymentFrequency": "Monthly",
+            "interestRate": 8.2,
+            "maturityDate": "2023-07-27T03:51:06.994Z",
+            "arrears": 2393
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 1382,
+        "monthlyMaintFee": 111,
+        "salePrice": 159392,
+        "taxArrears": 2869,
+        "leins": 1878,
+        "occupancy": "Owner Occupied",
+        "leaseAgreement": true,
+        "style": "Fourplex",
+        "well": true,
+        "septic": true,
+        "zoning": "Industrial",
+        "numUnits": 4,
+        "rentalIncome": 1414,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=20597",
+          "https://loremflickr.com/640/480/house?lock=92258",
+          "https://loremflickr.com/640/480/house?lock=17789"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Emard, Beier and O'Kon",
+        "appraiserName": "Roberta Hilpert",
+        "appraisalDate": "2022-06-06T15:22:12.771Z",
+        "appraisedValue": 305711,
+        "assessedValue": 783729
+      },
+      "label": ["Expired"],
+      "borrower": {
+        "profile": {
+          "id": "53801a46-34d8-462b-8c0e-ed2a10e6167d",
+          "firstName": "Gerry",
+          "lastName": "Mertz",
+          "email": "Alvis99@hotmail.com",
+          "phone": "375-941-8812",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
+          "occupation": "Dynamic Metrics Strategist",
+          "isLender": false,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "335a5d17-2b8a-46f6-9f0b-a7f663254ac4",
+      "dealInfo": {
+        "amount": 67699,
+        "rate": 9.5,
+        "term": 2,
+        "position": 3,
+        "exitStrategy": "Refinance and Sell",
+        "purpose": "Purchase",
+        "closingDate": "2024-02-13T22:51:34.739Z",
+        "interestOnly": true,
+        "marketabilityRanking": 1,
+        "paymentFrequency": "Monthly",
+        "details": "Animi ipsam delectus. Esse harum repudiandae molestias eum harum sequi. Quos perferendis praesentium hic nisi perspiciatis. Reiciendis cupiditate beatae expedita dolore. Sequi libero tenetur quas ea cupiditate ipsa officia minus. Perferendis quas non."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "88501 Turcotte Trafficway",
+          "city": "Kitchener",
+          "province": "Prince Edward Island",
+          "postalCode": "R3J 2V2"
+        },
+        "legalDescription": "Ipsum quisquam ullam facere incidunt temporibus aliquam nostrum natus.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Wolff LLC",
+            "mtgNumber": "734ee3e5-4b46-4cc5-ba28-59d776739b2d",
+            "balance": 158811,
+            "payment": 2345,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 10.5,
+            "maturityDate": "2024-03-05T04:21:59.725Z",
+            "arrears": 1297
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 2364,
+        "monthlyMaintFee": 121,
+        "salePrice": 255765,
+        "taxArrears": 2473,
+        "leins": 1805,
+        "occupancy": "Owner Occupied",
+        "leaseAgreement": false,
+        "style": "Apartment",
+        "well": true,
+        "septic": false,
+        "zoning": "Agricultural",
+        "numUnits": 3,
+        "rentalIncome": 2200,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=55174",
+          "https://loremflickr.com/640/480/house?lock=39207",
+          "https://loremflickr.com/640/480/house?lock=68253"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Rodriguez, Lesch and Moen",
+        "appraiserName": "Karla Ritchie",
+        "appraisalDate": "2022-12-04T15:29:01.623Z",
+        "appraisedValue": 755553,
+        "assessedValue": 735728
+      },
+      "label": ["Active"],
+      "borrower": {
+        "profile": {
+          "id": "14a3c98c-5de9-4908-920f-db255930c98b",
+          "firstName": "Reanna",
+          "lastName": "Schaefer",
+          "email": "Madison.Donnelly22@yahoo.com",
+          "phone": "433-705-8957",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+          "occupation": "Chief Division Orchestrator",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "d280f797-79a2-4dda-8a6b-67730090dd0c",
+      "dealInfo": {
+        "amount": 188420,
+        "rate": 8.6,
+        "term": 2,
+        "position": 1,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Debt Consolidation",
+        "closingDate": "2023-10-16T00:25:02.418Z",
+        "interestOnly": false,
+        "marketabilityRanking": 9,
+        "paymentFrequency": "Quarterly",
+        "details": "Facere hic ducimus repudiandae ut quo alias excepturi. Aspernatur minus qui ducimus magnam amet saepe accusantium quisquam. Incidunt fuga id illum maiores ipsum harum suscipit asperiores. Doloremque consequatur repellat facere."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "40279 Edmond Keys",
+          "city": "Toronto",
+          "province": "Alberta",
+          "postalCode": "E5E 7K4"
+        },
+        "legalDescription": "Tenetur temporibus aperiam maiores dolore esse consectetur.",
+        "encumbrances": [
+          {
+            "mtgPosition": 1,
+            "mtgHolder": "Kreiger, Swaniawski and Ortiz",
+            "mtgNumber": "fb6664ce-d87f-4a94-8b56-02010182af23",
+            "balance": 235963,
+            "payment": 2169,
+            "paymentFrequency": "Monthly",
+            "interestRate": 8.1,
+            "maturityDate": "2023-11-13T00:27:05.775Z",
+            "arrears": 3000
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 1821,
+        "monthlyMaintFee": 132,
+        "salePrice": 280027,
+        "taxArrears": 1779,
+        "leins": 2512,
+        "occupancy": "Rental",
+        "leaseAgreement": true,
+        "style": "Duplex",
+        "well": false,
+        "septic": true,
+        "zoning": "Industrial",
+        "numUnits": 5,
+        "rentalIncome": 2082,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=68818",
+          "https://loremflickr.com/640/480/house?lock=12672",
+          "https://loremflickr.com/640/480/house?lock=42336"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Terry Inc",
+        "appraiserName": "Chelsea Mills",
+        "appraisalDate": "2022-06-04T08:01:54.011Z",
+        "appraisedValue": 864313,
+        "assessedValue": 445536
+      },
+      "label": ["Active"],
+      "borrower": {
+        "profile": {
+          "id": "7bccc598-d4ac-44a4-a7b3-59d71de8cc9a",
+          "firstName": "Felipe",
+          "lastName": "Connelly",
+          "email": "Stuart_Sporer77@hotmail.com",
+          "phone": "823-810-0747",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
+          "occupation": "Customer Research Officer",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "3806298f-6989-45c3-b6eb-8490a0495a8f",
+      "dealInfo": {
+        "amount": 88078,
+        "rate": 7.4,
+        "term": 1,
+        "position": 1,
+        "exitStrategy": "Sell and Hold",
+        "purpose": "Home Renovation",
+        "closingDate": "2023-08-21T18:28:06.418Z",
+        "interestOnly": false,
+        "marketabilityRanking": 2,
+        "paymentFrequency": "Quarterly",
+        "details": "Praesentium culpa dolore ipsum expedita cumque earum. Officiis nam repudiandae nihil. Distinctio rem quae quod nisi minus tempora consequuntur sequi non. Maxime unde odio deserunt magnam laborum culpa."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "7920 Josianne River",
+          "city": "Montreal",
+          "province": "Alberta",
+          "postalCode": "Q2Y 4J3"
+        },
+        "legalDescription": "Eligendi dolorum aliquam fuga sapiente corporis hic deserunt a deleniti.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Dare - Carroll",
+            "mtgNumber": "547ee30f-0a87-4e18-9ea7-6ac9ed38b050",
+            "balance": 221935,
+            "payment": 1777,
+            "paymentFrequency": "Yearly",
+            "interestRate": 8.3,
+            "maturityDate": "2023-07-22T16:32:27.930Z",
+            "arrears": 1192
+          }
+        ],
+        "title": "Freehold",
+        "annualPropertyTax": 2427,
+        "monthlyMaintFee": 134,
+        "salePrice": 262960,
+        "taxArrears": 1100,
+        "leins": 1698,
+        "occupancy": "Investment",
+        "leaseAgreement": true,
+        "style": "Apartment",
+        "well": true,
+        "septic": false,
+        "zoning": "Industrial",
+        "numUnits": 5,
+        "rentalIncome": 1847,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=18940",
+          "https://loremflickr.com/640/480/house?lock=44632",
+          "https://loremflickr.com/640/480/house?lock=51550"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Osinski - Littel",
+        "appraiserName": "Marta Conroy",
+        "appraisalDate": "2022-04-12T18:29:06.750Z",
+        "appraisedValue": 767667,
+        "assessedValue": 324954
+      },
+      "label": ["Expired"],
+      "borrower": {
+        "profile": {
+          "id": "301e8877-78b4-4cd5-85c6-b38df61a596e",
+          "firstName": "Dillan",
+          "lastName": "Cremin",
+          "email": "Hanna64@yahoo.com",
+          "phone": "852-637-7066",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+          "occupation": "International Program Manager",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "cf2dbfdf-fae3-410e-b6b7-bf07d2f33c7d",
+      "dealInfo": {
+        "amount": 44914,
+        "rate": 12.4,
+        "term": 2,
+        "position": 2,
+        "exitStrategy": "Sell",
+        "purpose": "Home Renovation",
+        "closingDate": "2023-10-28T09:11:44.809Z",
+        "interestOnly": true,
+        "marketabilityRanking": 5,
+        "paymentFrequency": "Monthly",
+        "details": "Amet id cum delectus itaque at doloribus harum veritatis sunt. Consequuntur nihil sequi voluptas sint ab exercitationem illum. Quisquam fugit nam aperiam excepturi aperiam perspiciatis. Asperiores aspernatur architecto repellat voluptas pariatur cumque iure."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "2770 Runte Mission",
+          "city": "Kitchener",
+          "province": "Ontario",
+          "postalCode": "K2J 4A3"
+        },
+        "legalDescription": "Molestias animi sit reprehenderit incidunt facere ipsum dolor.",
+        "encumbrances": [
+          {
+            "mtgPosition": 2,
+            "mtgHolder": "Schroeder Inc",
+            "mtgNumber": "4c86ffd4-aec6-4d5e-ba7b-8fdedbb51837",
+            "balance": 128125,
+            "payment": 2371,
+            "paymentFrequency": "Quarterly",
+            "interestRate": 11.2,
+            "maturityDate": "2024-01-24T22:42:34.651Z",
+            "arrears": 2436
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 1775,
+        "monthlyMaintFee": 244,
+        "salePrice": 127453,
+        "taxArrears": 1261,
+        "leins": 1454,
+        "occupancy": "Second Home",
+        "leaseAgreement": true,
+        "style": "Triplex",
+        "well": true,
+        "septic": false,
+        "zoning": "Agricultural",
+        "numUnits": 3,
+        "rentalIncome": 2140,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=49127",
+          "https://loremflickr.com/640/480/house?lock=99996",
+          "https://loremflickr.com/640/480/house?lock=37704"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Medhurst - Ankunding",
+        "appraiserName": "Mable Kutch",
+        "appraisalDate": "2022-06-30T23:34:07.151Z",
+        "appraisedValue": 510300,
+        "assessedValue": 468360
+      },
+      "label": ["Expired"],
+      "borrower": {
+        "profile": {
+          "id": "efc4e2d2-d796-4a76-9cda-f8114e4f7f0b",
+          "firstName": "Cassandre",
+          "lastName": "West",
+          "email": "Destany_Mills@gmail.com",
+          "phone": "914-026-6872",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/120.jpg",
+          "occupation": "Customer Quality Assistant",
+          "isLender": true,
+          "isBorrower": true
+        }
+      }
+    },
+    {
+      "id": "1a65c85f-7969-49fe-affb-6537d9932726",
+      "dealInfo": {
+        "amount": 55708,
+        "rate": 9.8,
+        "term": 3,
+        "position": 3,
+        "exitStrategy": "Refinance and Hold",
+        "purpose": "Commercial",
+        "closingDate": "2023-09-10T05:21:02.554Z",
+        "interestOnly": true,
+        "marketabilityRanking": 8,
+        "paymentFrequency": "Yearly",
+        "details": "Corrupti repellendus autem aliquam quod. Iusto soluta corporis hic perspiciatis distinctio. Magnam assumenda asperiores molestiae explicabo. Illo soluta quasi et praesentium dicta soluta."
+      },
+      "propertyInfo": {
+        "address": {
+          "street": "49243 Leann Branch",
+          "city": "Longueuil",
+          "province": "British Columbia",
+          "postalCode": "N6C 7E7"
+        },
+        "legalDescription": "Asperiores provident quam ratione.",
+        "encumbrances": [
+          {
+            "mtgPosition": 3,
+            "mtgHolder": "Hintz - Schaefer",
+            "mtgNumber": "dd1eb9d7-0461-48db-b33f-c04df7df8d1f",
+            "balance": 115681,
+            "payment": 1420,
+            "paymentFrequency": "Yearly",
+            "interestRate": 11.1,
+            "maturityDate": "2023-12-14T04:38:27.790Z",
+            "arrears": 1999
+          }
+        ],
+        "title": "Leasehold",
+        "annualPropertyTax": 2047,
+        "monthlyMaintFee": 258,
+        "salePrice": 153651,
+        "taxArrears": 2276,
+        "leins": 2914,
+        "occupancy": "Investment",
+        "leaseAgreement": false,
+        "style": "Mobile Home",
+        "well": true,
+        "septic": true,
+        "zoning": "Residential",
+        "numUnits": 5,
+        "rentalIncome": 1096,
+        "images": [
+          "https://loremflickr.com/640/480/house?lock=55042",
+          "https://loremflickr.com/640/480/house?lock=64626",
+          "https://loremflickr.com/640/480/house?lock=33336"
+        ]
+      },
+      "valuation": {
+        "appraisalCompany": "Block, Macejkovic and Shanahan",
+        "appraiserName": "Delbert Turcotte",
+        "appraisalDate": "2022-10-22T15:47:55.252Z",
+        "appraisedValue": 565002,
+        "assessedValue": 598596
+      },
+      "label": ["Expired"],
+      "borrower": {
+        "profile": {
+          "id": "de01e15e-805f-4a0c-bea0-239cb5c49428",
+          "firstName": "Santino",
+          "lastName": "Ruecker",
+          "email": "Dawson91@yahoo.com",
+          "phone": "516-351-8400",
+          "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+          "occupation": "Global Functionality Technician",
+          "isLender": false,
+          "isBorrower": true
+        }
+      }
     }
   ],
   "members": [
     {
-    "id": "457dcbfa-3fe3-4a32-a060-0b8a8473748e",
-    "firstName": "Weldon",
-    "lastName": "Hirthe",
-    "email": "Rebecca.Schinner21@yahoo.com",
-    "phone": "860-583-3851",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/479.jpg",
-    "occupation": "International Applications Architect",
-    "isLender": false,
-    "isBorrower": true
+      "id": "457dcbfa-3fe3-4a32-a060-0b8a8473748e",
+      "firstName": "Weldon",
+      "lastName": "Hirthe",
+      "email": "Rebecca.Schinner21@yahoo.com",
+      "phone": "860-583-3851",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/479.jpg",
+      "occupation": "International Applications Architect",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "cbbb45d2-315c-441c-bcec-059ead99daec",
-    "firstName": "Bella",
-    "lastName": "King",
-    "email": "Rossie_Gorczany55@hotmail.com",
-    "phone": "069-421-2392",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/610.jpg",
-    "occupation": "Product Infrastructure Planner",
-    "isLender": false,
-    "isBorrower": true
+      "id": "cbbb45d2-315c-441c-bcec-059ead99daec",
+      "firstName": "Bella",
+      "lastName": "King",
+      "email": "Rossie_Gorczany55@hotmail.com",
+      "phone": "069-421-2392",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/610.jpg",
+      "occupation": "Product Infrastructure Planner",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "6b485b1b-40ab-40e4-bda5-053057e54139",
-    "firstName": "Jeanne",
-    "lastName": "Batz",
-    "email": "Hallie34@hotmail.com",
-    "phone": "189-925-5050",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
-    "occupation": "Human Operations Administrator",
-    "isLender": false,
-    "isBorrower": true
+      "id": "6b485b1b-40ab-40e4-bda5-053057e54139",
+      "firstName": "Jeanne",
+      "lastName": "Batz",
+      "email": "Hallie34@hotmail.com",
+      "phone": "189-925-5050",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+      "occupation": "Human Operations Administrator",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "de01e15e-805f-4a0c-bea0-239cb5c49428",
-    "firstName": "Santino",
-    "lastName": "Ruecker",
-    "email": "Dawson91@yahoo.com",
-    "phone": "516-351-8400",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
-    "occupation": "Global Functionality Technician",
-    "isLender": false,
-    "isBorrower": true
+      "id": "de01e15e-805f-4a0c-bea0-239cb5c49428",
+      "firstName": "Santino",
+      "lastName": "Ruecker",
+      "email": "Dawson91@yahoo.com",
+      "phone": "516-351-8400",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/205.jpg",
+      "occupation": "Global Functionality Technician",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "efc4e2d2-d796-4a76-9cda-f8114e4f7f0b",
-    "firstName": "Cassandre",
-    "lastName": "West",
-    "email": "Destany_Mills@gmail.com",
-    "phone": "914-026-6872",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/120.jpg",
-    "occupation": "Customer Quality Assistant",
-    "isLender": true,
-    "isBorrower": true
+      "id": "efc4e2d2-d796-4a76-9cda-f8114e4f7f0b",
+      "firstName": "Cassandre",
+      "lastName": "West",
+      "email": "Destany_Mills@gmail.com",
+      "phone": "914-026-6872",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/120.jpg",
+      "occupation": "Customer Quality Assistant",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "53801a46-34d8-462b-8c0e-ed2a10e6167d",
-    "firstName": "Gerry",
-    "lastName": "Mertz",
-    "email": "Alvis99@hotmail.com",
-    "phone": "375-941-8812",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
-    "occupation": "Dynamic Metrics Strategist",
-    "isLender": false,
-    "isBorrower": true
+      "id": "53801a46-34d8-462b-8c0e-ed2a10e6167d",
+      "firstName": "Gerry",
+      "lastName": "Mertz",
+      "email": "Alvis99@hotmail.com",
+      "phone": "375-941-8812",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
+      "occupation": "Dynamic Metrics Strategist",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "76ac4a7a-2d6e-481e-b938-5792c320468f",
-    "firstName": "Ahmed",
-    "lastName": "Reichert",
-    "email": "Kimberly.Kautzer@gmail.com",
-    "phone": "496-714-2660",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
-    "occupation": "Internal Brand Technician",
-    "isLender": false,
-    "isBorrower": false
+      "id": "76ac4a7a-2d6e-481e-b938-5792c320468f",
+      "firstName": "Ahmed",
+      "lastName": "Reichert",
+      "email": "Kimberly.Kautzer@gmail.com",
+      "phone": "496-714-2660",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1144.jpg",
+      "occupation": "Internal Brand Technician",
+      "isLender": false,
+      "isBorrower": false
     },
     {
-    "id": "e6665e1f-3c3c-4ae8-8799-fb5a8918f579",
-    "firstName": "Geoffrey",
-    "lastName": "Terry",
-    "email": "Clifton.Okuneva@gmail.com",
-    "phone": "397-261-0857",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/685.jpg",
-    "occupation": "District Infrastructure Planner",
-    "isLender": true,
-    "isBorrower": false
+      "id": "e6665e1f-3c3c-4ae8-8799-fb5a8918f579",
+      "firstName": "Geoffrey",
+      "lastName": "Terry",
+      "email": "Clifton.Okuneva@gmail.com",
+      "phone": "397-261-0857",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/685.jpg",
+      "occupation": "District Infrastructure Planner",
+      "isLender": true,
+      "isBorrower": false
     },
     {
-    "id": "99f8e8d7-c0c2-4411-80f1-4da72057bc4f",
-    "firstName": "Wava",
-    "lastName": "Becker",
-    "email": "Christina.Considine42@gmail.com",
-    "phone": "482-140-0001",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/305.jpg",
-    "occupation": "Human Infrastructure Strategist",
-    "isLender": false,
-    "isBorrower": true
+      "id": "99f8e8d7-c0c2-4411-80f1-4da72057bc4f",
+      "firstName": "Wava",
+      "lastName": "Becker",
+      "email": "Christina.Considine42@gmail.com",
+      "phone": "482-140-0001",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/305.jpg",
+      "occupation": "Human Infrastructure Strategist",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "1251e59b-5544-43d7-bbe8-55d0c3a9f6db",
-    "firstName": "Derrick",
-    "lastName": "Dietrich",
-    "email": "Bryce38@yahoo.com",
-    "phone": "750-916-4385",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
-    "occupation": "Corporate Research Associate",
-    "isLender": true,
-    "isBorrower": true
+      "id": "1251e59b-5544-43d7-bbe8-55d0c3a9f6db",
+      "firstName": "Derrick",
+      "lastName": "Dietrich",
+      "email": "Bryce38@yahoo.com",
+      "phone": "750-916-4385",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+      "occupation": "Corporate Research Associate",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "4e61c73c-10dd-4970-95d3-4ab8760769df",
-    "firstName": "Anissa",
-    "lastName": "Witting",
-    "email": "Darryl.Reynolds@hotmail.com",
-    "phone": "703-998-9988",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
-    "occupation": "National Quality Analyst",
-    "isLender": false,
-    "isBorrower": true
+      "id": "4e61c73c-10dd-4970-95d3-4ab8760769df",
+      "firstName": "Anissa",
+      "lastName": "Witting",
+      "email": "Darryl.Reynolds@hotmail.com",
+      "phone": "703-998-9988",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/721.jpg",
+      "occupation": "National Quality Analyst",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "21655eb6-2be8-4e29-bb99-270b8cee0e3e",
-    "firstName": "Kristina",
-    "lastName": "Boyer",
-    "email": "Cristina_Daugherty18@hotmail.com",
-    "phone": "721-248-4260",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
-    "occupation": "National Metrics Agent",
-    "isLender": false,
-    "isBorrower": true
+      "id": "21655eb6-2be8-4e29-bb99-270b8cee0e3e",
+      "firstName": "Kristina",
+      "lastName": "Boyer",
+      "email": "Cristina_Daugherty18@hotmail.com",
+      "phone": "721-248-4260",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/196.jpg",
+      "occupation": "National Metrics Agent",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "301e8877-78b4-4cd5-85c6-b38df61a596e",
-    "firstName": "Dillan",
-    "lastName": "Cremin",
-    "email": "Hanna64@yahoo.com",
-    "phone": "852-637-7066",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
-    "occupation": "International Program Manager",
-    "isLender": true,
-    "isBorrower": true
+      "id": "301e8877-78b4-4cd5-85c6-b38df61a596e",
+      "firstName": "Dillan",
+      "lastName": "Cremin",
+      "email": "Hanna64@yahoo.com",
+      "phone": "852-637-7066",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+      "occupation": "International Program Manager",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "2b6c007f-2cd5-4f2a-b9cf-40a2e182c5e7",
-    "firstName": "Tanya",
-    "lastName": "Haley",
-    "email": "Felicia39@hotmail.com",
-    "phone": "496-825-1572",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/195.jpg",
-    "occupation": "National Research Specialist",
-    "isLender": false,
-    "isBorrower": true
+      "id": "2b6c007f-2cd5-4f2a-b9cf-40a2e182c5e7",
+      "firstName": "Tanya",
+      "lastName": "Haley",
+      "email": "Felicia39@hotmail.com",
+      "phone": "496-825-1572",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/195.jpg",
+      "occupation": "National Research Specialist",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "e305f14c-6e79-4268-9dcd-3fe74c4cd605",
-    "firstName": "Maxie",
-    "lastName": "Langosh",
-    "email": "Victoria_Leannon@hotmail.com",
-    "phone": "631-524-0513",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/748.jpg",
-    "occupation": "Dynamic Data Assistant",
-    "isLender": false,
-    "isBorrower": false
+      "id": "e305f14c-6e79-4268-9dcd-3fe74c4cd605",
+      "firstName": "Maxie",
+      "lastName": "Langosh",
+      "email": "Victoria_Leannon@hotmail.com",
+      "phone": "631-524-0513",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/748.jpg",
+      "occupation": "Dynamic Data Assistant",
+      "isLender": false,
+      "isBorrower": false
     },
     {
-    "id": "ac19ea86-1e8b-4484-a69d-adbad6dbce99",
-    "firstName": "Marielle",
-    "lastName": "Runte",
-    "email": "Audreanne.Kiehn71@hotmail.com",
-    "phone": "695-582-4583",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/645.jpg",
-    "occupation": "Legacy Assurance Analyst",
-    "isLender": true,
-    "isBorrower": true
+      "id": "ac19ea86-1e8b-4484-a69d-adbad6dbce99",
+      "firstName": "Marielle",
+      "lastName": "Runte",
+      "email": "Audreanne.Kiehn71@hotmail.com",
+      "phone": "695-582-4583",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/645.jpg",
+      "occupation": "Legacy Assurance Analyst",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "f989b932-6db9-4b77-9e34-77f24329b152",
-    "firstName": "Eudora",
-    "lastName": "Abernathy",
-    "email": "Karianne_OKon@gmail.com",
-    "phone": "671-629-0989",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/266.jpg",
-    "occupation": "Senior Quality Specialist",
-    "isLender": false,
-    "isBorrower": false
+      "id": "f989b932-6db9-4b77-9e34-77f24329b152",
+      "firstName": "Eudora",
+      "lastName": "Abernathy",
+      "email": "Karianne_OKon@gmail.com",
+      "phone": "671-629-0989",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/266.jpg",
+      "occupation": "Senior Quality Specialist",
+      "isLender": false,
+      "isBorrower": false
     },
     {
-    "id": "41469485-073d-4bd8-a1b3-899feed7d5e7",
-    "firstName": "Braulio",
-    "lastName": "Hegmann",
-    "email": "Jaclyn98@hotmail.com",
-    "phone": "008-733-8995",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
-    "occupation": "Global Configuration Strategist",
-    "isLender": true,
-    "isBorrower": true
+      "id": "41469485-073d-4bd8-a1b3-899feed7d5e7",
+      "firstName": "Braulio",
+      "lastName": "Hegmann",
+      "email": "Jaclyn98@hotmail.com",
+      "phone": "008-733-8995",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/296.jpg",
+      "occupation": "Global Configuration Strategist",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "f172356a-cc27-4f18-8342-3fa2b773149a",
-    "firstName": "Ryley",
-    "lastName": "Will",
-    "email": "Giuseppe.Leuschke89@hotmail.com",
-    "phone": "917-505-7366",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/746.jpg",
-    "occupation": "Investor Division Consultant",
-    "isLender": true,
-    "isBorrower": false
+      "id": "f172356a-cc27-4f18-8342-3fa2b773149a",
+      "firstName": "Ryley",
+      "lastName": "Will",
+      "email": "Giuseppe.Leuschke89@hotmail.com",
+      "phone": "917-505-7366",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/746.jpg",
+      "occupation": "Investor Division Consultant",
+      "isLender": true,
+      "isBorrower": false
     },
     {
-    "id": "8fde10b8-5d56-498d-9c12-5b61b9daf72a",
-    "firstName": "Manuela",
-    "lastName": "Willms",
-    "email": "Kailyn_Schaefer@gmail.com",
-    "phone": "232-780-2994",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
-    "occupation": "Lead Branding Administrator",
-    "isLender": false,
-    "isBorrower": false
+      "id": "8fde10b8-5d56-498d-9c12-5b61b9daf72a",
+      "firstName": "Manuela",
+      "lastName": "Willms",
+      "email": "Kailyn_Schaefer@gmail.com",
+      "phone": "232-780-2994",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/286.jpg",
+      "occupation": "Lead Branding Administrator",
+      "isLender": false,
+      "isBorrower": false
     },
     {
-    "id": "7bccc598-d4ac-44a4-a7b3-59d71de8cc9a",
-    "firstName": "Felipe",
-    "lastName": "Connelly",
-    "email": "Stuart_Sporer77@hotmail.com",
-    "phone": "823-810-0747",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
-    "occupation": "Customer Research Officer",
-    "isLender": true,
-    "isBorrower": true
+      "id": "7bccc598-d4ac-44a4-a7b3-59d71de8cc9a",
+      "firstName": "Felipe",
+      "lastName": "Connelly",
+      "email": "Stuart_Sporer77@hotmail.com",
+      "phone": "823-810-0747",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/322.jpg",
+      "occupation": "Customer Research Officer",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "0b6f78df-ad06-424d-9619-0a4b72d4e9cc",
-    "firstName": "Dannie",
-    "lastName": "Rice",
-    "email": "Leonard.Moen@yahoo.com",
-    "phone": "772-641-6577",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
-    "occupation": "Dynamic Assurance Associate",
-    "isLender": true,
-    "isBorrower": true
+      "id": "0b6f78df-ad06-424d-9619-0a4b72d4e9cc",
+      "firstName": "Dannie",
+      "lastName": "Rice",
+      "email": "Leonard.Moen@yahoo.com",
+      "phone": "772-641-6577",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/812.jpg",
+      "occupation": "Dynamic Assurance Associate",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "197b3e3f-f897-438a-ae8c-04cf5eff6ac3",
-    "firstName": "Hoyt",
-    "lastName": "Hodkiewicz",
-    "email": "Jovan_Hammes99@hotmail.com",
-    "phone": "343-654-0247",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
-    "occupation": "Senior Quality Designer",
-    "isLender": true,
-    "isBorrower": false
+      "id": "197b3e3f-f897-438a-ae8c-04cf5eff6ac3",
+      "firstName": "Hoyt",
+      "lastName": "Hodkiewicz",
+      "email": "Jovan_Hammes99@hotmail.com",
+      "phone": "343-654-0247",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
+      "occupation": "Senior Quality Designer",
+      "isLender": true,
+      "isBorrower": false
     },
     {
-    "id": "747f1fb1-5a91-45dd-b712-476cde864170",
-    "firstName": "Jovanny",
-    "lastName": "Roberts",
-    "email": "Jacquelyn.Bergstrom98@yahoo.com",
-    "phone": "847-733-8983",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/127.jpg",
-    "occupation": "Regional Marketing Manager",
-    "isLender": false,
-    "isBorrower": true
+      "id": "747f1fb1-5a91-45dd-b712-476cde864170",
+      "firstName": "Jovanny",
+      "lastName": "Roberts",
+      "email": "Jacquelyn.Bergstrom98@yahoo.com",
+      "phone": "847-733-8983",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/127.jpg",
+      "occupation": "Regional Marketing Manager",
+      "isLender": false,
+      "isBorrower": true
     },
     {
-    "id": "8ba5307c-21e7-4b15-bd31-e9a101bb0a72",
-    "firstName": "Kaci",
-    "lastName": "Kuhlman",
-    "email": "Omari_Abbott7@yahoo.com",
-    "phone": "583-490-9970",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/320.jpg",
-    "occupation": "Future Markets Facilitator",
-    "isLender": false,
-    "isBorrower": false
+      "id": "8ba5307c-21e7-4b15-bd31-e9a101bb0a72",
+      "firstName": "Kaci",
+      "lastName": "Kuhlman",
+      "email": "Omari_Abbott7@yahoo.com",
+      "phone": "583-490-9970",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/320.jpg",
+      "occupation": "Future Markets Facilitator",
+      "isLender": false,
+      "isBorrower": false
     },
     {
-    "id": "a7cdcd70-a362-474d-ad74-da31a0983f71",
-    "firstName": "Alec",
-    "lastName": "Kutch",
-    "email": "Devonte61@gmail.com",
-    "phone": "034-432-2150",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/882.jpg",
-    "occupation": "Direct Data Executive",
-    "isLender": true,
-    "isBorrower": true
+      "id": "a7cdcd70-a362-474d-ad74-da31a0983f71",
+      "firstName": "Alec",
+      "lastName": "Kutch",
+      "email": "Devonte61@gmail.com",
+      "phone": "034-432-2150",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/882.jpg",
+      "occupation": "Direct Data Executive",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "14a3c98c-5de9-4908-920f-db255930c98b",
-    "firstName": "Reanna",
-    "lastName": "Schaefer",
-    "email": "Madison.Donnelly22@yahoo.com",
-    "phone": "433-705-8957",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
-    "occupation": "Chief Division Orchestrator",
-    "isLender": true,
-    "isBorrower": true
+      "id": "14a3c98c-5de9-4908-920f-db255930c98b",
+      "firstName": "Reanna",
+      "lastName": "Schaefer",
+      "email": "Madison.Donnelly22@yahoo.com",
+      "phone": "433-705-8957",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1070.jpg",
+      "occupation": "Chief Division Orchestrator",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "37312959-0a3b-4593-8793-58b7e191c94e",
-    "firstName": "Florian",
-    "lastName": "Rath",
-    "email": "Abigayle87@gmail.com",
-    "phone": "245-991-0047",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
-    "occupation": "Corporate Optimization Consultant",
-    "isLender": true,
-    "isBorrower": true
+      "id": "37312959-0a3b-4593-8793-58b7e191c94e",
+      "firstName": "Florian",
+      "lastName": "Rath",
+      "email": "Abigayle87@gmail.com",
+      "phone": "245-991-0047",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
+      "occupation": "Corporate Optimization Consultant",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "155446f0-b2b1-4418-80e3-b62d994c0333",
-    "firstName": "Reta",
-    "lastName": "Tromp",
-    "email": "Virgil.Roberts3@gmail.com",
-    "phone": "068-235-9357",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
-    "occupation": "Legacy Interactions Technician",
-    "isLender": true,
-    "isBorrower": true
+      "id": "155446f0-b2b1-4418-80e3-b62d994c0333",
+      "firstName": "Reta",
+      "lastName": "Tromp",
+      "email": "Virgil.Roberts3@gmail.com",
+      "phone": "068-235-9357",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+      "occupation": "Legacy Interactions Technician",
+      "isLender": true,
+      "isBorrower": true
     },
     {
-    "id": "7098e961-a6a5-4b84-a860-fa27fc11c0e2",
-    "firstName": "Tia",
-    "lastName": "Rath",
-    "email": "Gussie_Gorczany@yahoo.com",
-    "phone": "080-221-9172",
-    "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
-    "occupation": "Senior Data Developer",
-    "isLender": true,
-    "isBorrower": true
+      "id": "7098e961-a6a5-4b84-a860-fa27fc11c0e2",
+      "firstName": "Tia",
+      "lastName": "Rath",
+      "email": "Gussie_Gorczany@yahoo.com",
+      "phone": "080-221-9172",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1193.jpg",
+      "occupation": "Senior Data Developer",
+      "isLender": true,
+      "isBorrower": true
     }
-    ]
+  ]
 }

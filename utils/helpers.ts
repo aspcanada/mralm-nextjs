@@ -8,3 +8,10 @@ export function currencyFormat(num: number) {
   
   return '$0'
 }
+
+export function percentFormat(num: number) {
+  if (num) 
+    return num.toFixed(1) + '%'
+  
+  return '0%'
+}

@@ -2,7 +2,6 @@ import {
   Deal,
   DealInfo,
 } from "../../../interfaces"
-// import {faker} from "@faker-js/faker"
 
 const { faker } = require("@faker-js/faker")
 
@@ -114,22 +113,19 @@ const zoning = [
   "Mixed Use",
 ]
 
-
-
-
-
-const deals: Deal[] = []
-Array.from({ length: 3 }).forEach((_, idx) => {
-  deals.push(createRandomDeal())
-})
-
-function createRandomDeal() {
+async function createRandomDeal() {
+  // get random borrower
+  const borrowersUrl = `http://localhost:8081/api/members/?isBorrower=true`
+  const borrowers = await (await fetch(borrowersUrl)).json()
+  const borrower = borrowers[Math.floor(Math.random() * borrowers.length)]
+  
   const deal: Deal = {
     id: faker.datatype.uuid(),
     dealInfo: {
-      amount: faker.datatype.number({ min: 100000, max: 300000 }),
+      amount: faker.datatype.number({ min: 40000, max: 190000 }),
       rate: faker.datatype.float({ min: 7, max: 13, precision: 0.1 }), //%
-      term: faker.datatype.number({ min: 6, max: 24 }), //months
+      term: faker.datatype.number({ min: 1, max: 3 }), //years
+      position: faker.datatype.number({ min: 1, max: 3 }),
       exitStrategy: EXIT_STRATEGIES[Math.floor(Math.random() * EXIT_STRATEGIES.length)],
       purpose: purposes[Math.floor(Math.random() * purposes.length)],
       closingDate: faker.date.future(),
@@ -183,68 +179,27 @@ function createRandomDeal() {
       appraisalCompany: faker.company.name(),
       appraiserName: faker.name.fullName(),
       appraisalDate: faker.date.past(),
-      appraisedValue: faker.datatype.number({ min: 100000, max: 300000 }),
-      assessedValue: faker.datatype.number({ min: 100000, max: 300000 }),
+      appraisedValue: faker.datatype.number({ min: 300000, max: 900000 }),
+      assessedValue: faker.datatype.number({ min: 200000, max: 800000 }),
     },
     label: [LABELS[Math.floor(Math.random() * LABELS.length)]],
     borrower: {
-      profile: {
-        id: faker.datatype.uuid(),
-        firstName: faker.name.firstName(),
-        lastName: faker.name.lastName(),
-        email: faker.internet.email(),
-        phone: faker.phone.number(),
-        avatar: faker.image.avatar(),
-        occupation: faker.name.jobTitle(),
-        isLender: faker.datatype.boolean(),
-        lenderCriteria: {
-          maxAmount: faker.datatype.number({ min: 100000, max: 300000 }),
-          ltv: faker.datatype.number({ min: 70, max: 80 }), //%
-          minRate: faker.datatype.float({ min: 7, max: 13, precision: 0.1 }), //%
-          maxTerm: faker.datatype.number({ min: 6, max: 24 }), //months
-          lenderFee: faker.datatype.number({ min: 1, max: 3 }), //%
-          fico: faker.datatype.number({ min: 600, max: 800 }),
-        },
-        isBorrower: faker.datatype.boolean(),
-      },
+      profile: borrower,
     },
   }
 
   return deal;
-
-  // return {
-  //   img: getImages(),
-  //   memberAvatar: faker.image.avatar(),
-  //   // type: "rent",
-  //   // propertyStatus: "For Sale",
-  //   purpose: "Debt Consolidation",
-  //   label: [getRandomLabel()],
-  //   city: faker.address.cityName(),
-  //   title: `Little Acorn Farm ${idx}`,
-  //   details:
-  //     "The most common and most absolute type of estate, the tenant enjoys the greatest discretion over the disposal of the property.",
-  //   amount: faker.datatype.number({ min: 100000, max: 300000 }),
-  //   // home: "Virtual Home",
-  //   term: faker.datatype.number({ min: 6, max: 24 }), //months
-  //   rate: faker.datatype.float({ min: 7, max: 13, precision: 0.1 }), //%
-  //   ltv: faker.datatype.number({ min: 70, max: 80 }), //%
-  //   position: faker.datatype.number({ min: 1, max: 3 }), //1st, 2nd, 3rd
-
-  //   // bed: faker.datatype.number({ min: 1, max: 5 }),
-  //   // bath: faker.datatype.number({ min: 1, max: 3 }),
-  //   // sqft: faker.datatype.number({ min: 1000, max: 4000}),
-  //   // rooms: faker.datatype.number(4),
-  //   date: "August 4, 2022",
-  //   // video: "/assets/video/video2.mp4",
-  //   id: idx,
-  //   // propertyType: "Office",
-  //   // agencies: "Lincoln",
-  // }
 }
 
-export default function handler(_req: any, res: any) {
+export default async function handler(_req: any, res: any) {
+  const data: Deal[] = []
+  for (let i = 0; i < 20; i++) {
+    const deal = await createRandomDeal()
+    data.push(deal)
+  }
+
   try {
-    res.status(200).json(deals)
+    res.status(200).json(data)
   } catch (err) {
     console.log(err)
     alert("Data is not fetch!!! Please check console!!!")

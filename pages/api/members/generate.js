@@ -1,7 +1,6 @@
 const { faker } = require("@faker-js/faker")
 
 const data = []
-const labels = ["Active", "Expired"]
 
 Array.from({ length: 30 }).forEach((_, idx) => {
   data.push(createRandomMember(idx))

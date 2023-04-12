@@ -29,8 +29,8 @@ export interface Profile {
   avatar: string; //url
   occupation?: string;
   // SIN: string;
-  // DOB: Date;
-  // memberSince: Date;
+  // DOB: string;
+  // memberSince: string;
   isLender: boolean;
   lenderCriteria?: LendingCriteria;
   isBorrower: boolean;
@@ -62,7 +62,7 @@ export interface Borrower {
 export interface Valuation {
   appraisalCompany: string;
   appraiserName: string;
-  appraisalDate: Date;
+  appraisalDate: string;
   appraisedValue: number;
   assessedValue: number;
 };
@@ -71,9 +71,10 @@ export interface DealInfo {
   amount: number;
   rate: number;
   term: number;
+  position: number; //1st, 2nd, etc
   exitStrategy: string;
   purpose: string;
-  closingDate: Date;
+  closingDate: string;
   interestOnly: boolean;
   broker?: string;
   brokerFee?: number; //percentage || amount
@@ -85,6 +86,7 @@ export interface DealInfo {
   marketabilityRanking: number; //1-10
   paymentFrequency: string; //monthly, quarterly, yearly
   details: string;
+  // ltv = (amount / appraisedValue) * 100;
 };
 
 export interface Encumbrance {
@@ -95,7 +97,7 @@ export interface Encumbrance {
   payment: number;
   paymentFrequency: string; //monthly, quarterly, yearly, bi-weekly
   interestRate: number;
-  maturityDate: Date;
+  maturityDate: string;
   arrears?: number;
 };
 

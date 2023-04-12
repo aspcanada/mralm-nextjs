@@ -1,6 +1,9 @@
 import { Deal } from "@/interfaces"
 import Link from "next/link"
-import { currencyFormat } from "@/utils/helpers"
+import { currencyFormat, percentFormat } from "@/utils/helpers"
+
+// import a date formatter
+// import { format } from "date-fns"
 
 type DealListTableProps = {
   // user?: any
@@ -95,13 +98,13 @@ export default function DealListTable({ props }: { props: DealListTableProps }) 
                 {deals.map((deal) => (
                   <tr key={deal.id}>
                     <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm text-gray-500">{deal.id}</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{currencyFormat(deal.amount)}</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.rate}%</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.ltv}%</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.term} years</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.date}</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.city}</td>
-                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.position}</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{currencyFormat(deal.dealInfo.amount)}</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.dealInfo.rate}%</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{percentFormat((deal.dealInfo.amount / deal.valuation.appraisedValue) * 100)}</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.dealInfo.term} years</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.dealInfo.closingDate.split('T')[0]}</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.propertyInfo.address.city}</td>
+                    <td className="whitespace-nowrap px-2 py-2 text-sm text-gray-500">{deal.dealInfo.position}</td>
                     <td className="relative whitespace-nowrap py-2 pl-3 pr-6 text-right text-sm font-medium sm:pr-0">
                       <Link href="/deals/[id]" as={`/deals/${deal.id}`} className="text-sky-600 hover:text-sky-900">
                         <button type="button" className="block rounded-md bg-sky-600 py-1.5 px-3 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"> Details<span className="sr-only">, {deal.id}</span></button>
