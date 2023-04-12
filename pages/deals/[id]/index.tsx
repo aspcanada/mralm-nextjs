@@ -3,6 +3,7 @@ import useSWR from 'swr'
 import { useRouter } from "next/router"
 import DealDetail from '@/components/deals/deal-detail'
 import KeyMetrics from '@/components/deals/key-metrics'
+import ValuationDetail from '@/components/deals/valuation-detail'
 import PropertyDetail from '@/components/deals/property-detail'
 import { Deal, PropertyInfo } from '@/interfaces'
 import { useDeal } from '@/utils/hooks'
@@ -23,6 +24,7 @@ export default function DealDetailPage() {
         <div className="mt-4">
           <KeyMetrics />
           <DealDetail />
+          <ValuationDetail />
           <PropertyDetail />
         </div>
       </Layout>

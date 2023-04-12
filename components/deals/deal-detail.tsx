@@ -13,7 +13,7 @@ export default function DealDetail() {
 
   return (
     <div>
-    <h3 className="mt-5 mb-5 text-lg font-semibold leading-6 text-gray-900">Deal Details</h3>
+    <h3 className="mt-5 mb-5 text-lg font-semibold leading-6 text-gray-900">Deal Info</h3>
 
     <div className="overflow-hidden bg-white shadow sm:rounded-lg">
       <div className="border-t border-gray-200 px-4 py-5 sm:p-0">
@@ -38,12 +38,12 @@ export default function DealDetail() {
             <dt className="text-sm font-medium text-gray-500">Closing Date</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">{deal.dealInfo.closingDate.split('T')[0]}</dd>
           </div>
-          {/* <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
+          <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Details</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-              {deal.details}
+              {deal.dealInfo.details}
             </dd>
-          </div> */}
+          </div>
           {/* <div className="py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:py-2 sm:px-6">
             <dt className="text-sm font-medium text-gray-500">Attachments</dt>
             <dd className="mt-1 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
