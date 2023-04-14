@@ -12,11 +12,23 @@ export function useDeal (id: any) {
 }
 
 export function useProfile () {
-  const { data, error, isLoading } = useSWR(`/api/me`)
+  const { data, error, isLoading, mutate } = useSWR(`/api/me`)
  
   return {
     profile: data as Profile,
     isLoading,
-    isError: error
+    isError: error,
+    mutate
+  }
+}
+
+export function useMember (id: string) {
+  const { data, error, isLoading, mutate } = useSWR(`/api/members/${id}`)
+ 
+  return {
+    profile: data as Profile,
+    isLoading,
+    isError: error,
+    mutate
   }
 }

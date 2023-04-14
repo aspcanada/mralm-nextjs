@@ -63,7 +63,9 @@
         "appraisedValue": 340118,
         "assessedValue": 279062
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "37312959-0a3b-4593-8793-58b7e191c94e",
@@ -141,7 +143,9 @@
         "appraisedValue": 496891,
         "assessedValue": 711319
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "ac19ea86-1e8b-4484-a69d-adbad6dbce99",
@@ -219,7 +223,9 @@
         "appraisedValue": 430924,
         "assessedValue": 438002
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "a7cdcd70-a362-474d-ad74-da31a0983f71",
@@ -297,7 +303,9 @@
         "appraisedValue": 338502,
         "assessedValue": 632908
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "14a3c98c-5de9-4908-920f-db255930c98b",
@@ -375,7 +383,9 @@
         "appraisedValue": 503008,
         "assessedValue": 756476
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "41469485-073d-4bd8-a1b3-899feed7d5e7",
@@ -453,7 +463,9 @@
         "appraisedValue": 551254,
         "assessedValue": 730698
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "747f1fb1-5a91-45dd-b712-476cde864170",
@@ -531,7 +543,9 @@
         "appraisedValue": 345152,
         "assessedValue": 359012
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "de01e15e-805f-4a0c-bea0-239cb5c49428",
@@ -609,7 +623,9 @@
         "appraisedValue": 865452,
         "assessedValue": 246807
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "155446f0-b2b1-4418-80e3-b62d994c0333",
@@ -687,7 +703,9 @@
         "appraisedValue": 396020,
         "assessedValue": 645952
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "6b485b1b-40ab-40e4-bda5-053057e54139",
@@ -765,7 +783,9 @@
         "appraisedValue": 331679,
         "assessedValue": 641775
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "a7cdcd70-a362-474d-ad74-da31a0983f71",
@@ -843,7 +863,9 @@
         "appraisedValue": 639388,
         "assessedValue": 229091
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "7098e961-a6a5-4b84-a860-fa27fc11c0e2",
@@ -921,7 +943,9 @@
         "appraisedValue": 599497,
         "assessedValue": 233102
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "155446f0-b2b1-4418-80e3-b62d994c0333",
@@ -999,7 +1023,9 @@
         "appraisedValue": 661104,
         "assessedValue": 387472
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "41469485-073d-4bd8-a1b3-899feed7d5e7",
@@ -1077,7 +1103,9 @@
         "appraisedValue": 627234,
         "assessedValue": 229876
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "2b6c007f-2cd5-4f2a-b9cf-40a2e182c5e7",
@@ -1155,7 +1183,9 @@
         "appraisedValue": 305711,
         "assessedValue": 783729
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "53801a46-34d8-462b-8c0e-ed2a10e6167d",
@@ -1233,7 +1263,9 @@
         "appraisedValue": 755553,
         "assessedValue": 735728
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "14a3c98c-5de9-4908-920f-db255930c98b",
@@ -1311,7 +1343,9 @@
         "appraisedValue": 864313,
         "assessedValue": 445536
       },
-      "label": ["Active"],
+      "label": [
+        "Active"
+      ],
       "borrower": {
         "profile": {
           "id": "7bccc598-d4ac-44a4-a7b3-59d71de8cc9a",
@@ -1389,7 +1423,9 @@
         "appraisedValue": 767667,
         "assessedValue": 324954
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "301e8877-78b4-4cd5-85c6-b38df61a596e",
@@ -1467,7 +1503,9 @@
         "appraisedValue": 510300,
         "assessedValue": 468360
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "efc4e2d2-d796-4a76-9cda-f8114e4f7f0b",
@@ -1545,7 +1583,9 @@
         "appraisedValue": 565002,
         "assessedValue": 598596
       },
-      "label": ["Expired"],
+      "label": [
+        "Expired"
+      ],
       "borrower": {
         "profile": {
           "id": "de01e15e-805f-4a0c-bea0-239cb5c49428",
@@ -1562,6 +1602,17 @@
     }
   ],
   "members": [
+    {
+      "id": "457dcbfa-3fe3-4a32-a060-0b8a8473748f",
+      "firstName": "Alain",
+      "lastName": "St Pierre",
+      "email": "alain@aspcanada.com",
+      "phone": "778-838-4277",
+      "avatar": "https://lh3.googleusercontent.com/ogw/AOLn63GpM7MUfzhintsYYaPChe1tutPauvIenMEt5pxo9wM=s32-c-mo",
+      "occupation": "Software Architect",
+      "isLender": true,
+      "isBorrower": true
+    },
     {
       "id": "457dcbfa-3fe3-4a32-a060-0b8a8473748e",
       "firstName": "Weldon",

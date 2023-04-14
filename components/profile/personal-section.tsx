@@ -1,11 +1,38 @@
 import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 import { useProfile } from "@/utils/hooks";
+import { useState } from "react";
+import { Profile } from "@/interfaces";
+import useSWR from 'swr'
 
 export default function PersonalSection() {
-  const { profile, isLoading, isError } = useProfile()
+  const { profile, isLoading, isError, mutate } = useProfile()
+
+  async function updateMember(profile: Profile) {
+    const res = await fetch(`/api/members/${profile.id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(profile)
+    });
+  
+    const updatedData = await res.json();
+  
+    return updatedData;
+  }
+
+  const handleSubmit = async (event: any) => {
+    event.preventDefault();
+
+    const updatedData = await updateMember({...profile});
+
+    // revalidate the local data with the updated data
+    mutate(updatedData);
+  };
+
   if (isLoading) return <div>Loading...</div>
   if (isError) return <div>Error...</div>
-
+  
   return (
     <>
       <div className="space-y-10 divide-y divide-gray-900/10">
@@ -19,12 +46,12 @@ export default function PersonalSection() {
             </p>
           </div>
 
-          <form className="bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2">
+          <form action="/api/me" method="PUT" className="bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl md:col-span-2">
             <div className="px-4 py-6 sm:p-8">
               <div className="grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                 <div className="sm:col-span-3">
                   <label
-                    htmlFor="first-name"
+                    htmlFor="firstName"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
                     First name
@@ -32,10 +59,12 @@ export default function PersonalSection() {
                   <div className="mt-2">
                     <input
                       type="text"
-                      name="first-name"
-                      id="first-name"
+                      name="firstName"
+                      id="firstName"
                       autoComplete="given-name"
-                      value={profile.firstName}
+                      defaultValue={profile.firstName}
+                      onChange={e => (profile.firstName = e.target.value)}
+                      required
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -43,7 +72,7 @@ export default function PersonalSection() {
 
                 <div className="sm:col-span-3">
                   <label
-                    htmlFor="last-name"
+                    htmlFor="lastName"
                     className="block text-sm font-medium leading-6 text-gray-900"
                   >
                     Last name
@@ -51,10 +80,12 @@ export default function PersonalSection() {
                   <div className="mt-2">
                     <input
                       type="text"
-                      name="last-name"
-                      id="last-name"
+                      name="lastName"
+                      id="lastName"
                       autoComplete="family-name"
-                      value={profile.lastName}
+                      defaultValue={profile.lastName}
+                      onChange={e => (profile.lastName = e.target.value)}
+                      required
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -73,7 +104,9 @@ export default function PersonalSection() {
                       name="email"
                       type="email"
                       autoComplete="email"
-                      value={profile.email}
+                      defaultValue={profile.email}
+                      onChange={e => (profile.email = e.target.value)}
+                      required
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -92,7 +125,8 @@ export default function PersonalSection() {
                       name="phone"
                       type="text"
                       autoComplete="phone"
-                      value={profile.phone}
+                      defaultValue={profile.phone}
+                      onChange={e => (profile.phone = e.target.value)}
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -111,7 +145,8 @@ export default function PersonalSection() {
                       name="occupation"
                       type="text"
                       autoComplete="occupation"
-                      value={profile.occupation}
+                      defaultValue={profile.occupation}
+                      onChange={e => (profile.occupation = e.target.value)}
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -212,14 +247,15 @@ export default function PersonalSection() {
               </div>
             </div>
             <div className="flex items-center justify-end gap-x-6 border-t border-gray-900/10 px-4 py-4 sm:px-8">
-              <button
+              {/* <button
                 type="button"
                 className="text-sm font-semibold leading-6 text-gray-900"
               >
                 Cancel
-              </button>
+              </button> */}
               <button
-                type="submit"
+                type="button"
+                onClick={handleSubmit}
                 className="rounded-md bg-sky-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
               >
                 Save
