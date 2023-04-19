@@ -1,7 +1,7 @@
 // import { withApiAuthRequired } from "@auth0/nextjs-auth0"
 import { NextApiRequest, NextApiResponse } from 'next';
 
-const apiDomain = "http://localhost:8081"
+const apiDomain = process.env.REACT_APP_API_BASE_URL!
 
 export default function commonHandler(req: NextApiRequest, res: NextApiResponse) {
   const { method } = req;

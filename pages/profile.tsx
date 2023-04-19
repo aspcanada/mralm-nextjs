@@ -10,9 +10,9 @@ export default function ProfilePage() {
       <Layout>
           <h1 className="text-2xl font-semibold text-gray-900">My Profile</h1>
           <div className="mt-4">
-            <ProfileSection />
-            <div className="mt-10" />
             <PersonalSection />
+            <div className="mt-10" />
+            <ProfileSection />
           </div>
       </Layout>
     </>

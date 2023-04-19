@@ -3,11 +3,14 @@ import { useProfile } from "@/utils/hooks";
 import { useState } from "react";
 import { Profile } from "@/interfaces";
 import useSWR from 'swr'
+import { showNotification } from '@mantine/notifications';
 
 export default function PersonalSection() {
   const { profile, isLoading, isError, mutate } = useProfile()
+  const [updatedProfile, setUpdatedProfile] = useState(profile);
+  const [disabled, setDisabled] = useState(true);
 
-  async function updateMember(profile: Profile) {
+  async function updateProfile(profile: Profile) {
     const res = await fetch(`/api/members/${profile.id}`, {
       method: 'PUT',
       headers: {
@@ -21,13 +24,35 @@ export default function PersonalSection() {
     return updatedData;
   }
 
-  const handleSubmit = async (event: any) => {
-    event.preventDefault();
+  function handleFieldUpdate(e: any) {
+    // enable save button
+    setDisabled(false);
 
-    const updatedData = await updateMember({...profile});
+    const element = e.target;
+    const value = element.type === 'number' ? parseInt(element.value) : element.value;
+    const nextProfile = {...profile, [element.name]: value};
+
+    setUpdatedProfile(nextProfile);
+  }
+
+  const handleSubmit = async (event: any) => {
+    setDisabled(true);
+    // event.preventDefault();
+
+    mutate(async () => {
+      return [await updateProfile(updatedProfile)]
+    }, { optimisticData: [updatedProfile], rollbackOnError: true, revalidate: false } );
+
+    showNotification({
+      title: 'Saved!',
+      message: 'Profile saved successfully.',
+      color: 'green',
+    })
+
+    // const updatedData = await updateProfile({...updatedProfile});
 
     // revalidate the local data with the updated data
-    mutate(updatedData);
+    // mutate(updatedData);
   };
 
   if (isLoading) return <div>Loading...</div>
@@ -63,7 +88,7 @@ export default function PersonalSection() {
                       id="firstName"
                       autoComplete="given-name"
                       defaultValue={profile.firstName}
-                      onChange={e => (profile.firstName = e.target.value)}
+                      onChange={handleFieldUpdate}
                       required
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
@@ -84,7 +109,7 @@ export default function PersonalSection() {
                       id="lastName"
                       autoComplete="family-name"
                       defaultValue={profile.lastName}
-                      onChange={e => (profile.lastName = e.target.value)}
+                      onChange={handleFieldUpdate}
                       required
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
@@ -105,7 +130,7 @@ export default function PersonalSection() {
                       type="email"
                       autoComplete="email"
                       defaultValue={profile.email}
-                      onChange={e => (profile.email = e.target.value)}
+                      onChange={handleFieldUpdate}
                       required
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
@@ -126,7 +151,7 @@ export default function PersonalSection() {
                       type="text"
                       autoComplete="phone"
                       defaultValue={profile.phone}
-                      onChange={e => (profile.phone = e.target.value)}
+                      onChange={handleFieldUpdate}
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -146,7 +171,7 @@ export default function PersonalSection() {
                       type="text"
                       autoComplete="occupation"
                       defaultValue={profile.occupation}
-                      onChange={e => (profile.occupation = e.target.value)}
+                      onChange={handleFieldUpdate}
                       className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-sky-600 sm:text-sm sm:leading-6"
                     />
                   </div>
@@ -256,7 +281,8 @@ export default function PersonalSection() {
               <button
                 type="button"
                 onClick={handleSubmit}
-                className="rounded-md bg-sky-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
+                disabled={disabled}
+                className="disabled:bg-sky-200 rounded-md bg-sky-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600"
               >
                 Save
               </button>
